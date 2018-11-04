@@ -5,48 +5,58 @@
 include 'linker_files/head.html';
 
 
- ?>
+?>
 
 
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+<![endif]-->
 
-  <!-- Add your site or application content here -->
-  
-
- 	<!-- checking php post super globals -->
-
-	
-	<?php 
-
-	$_POST['hellow'] = 'riyad';
+<!-- Add your site or application content here -->
 
 
-	echo $_POST['hellow'];
+<!-- checking php post super globals -->
+
+
+<?php 
+
+$_POST['hellow'] = 'riyad';
+
+
+echo $_POST['hellow'];
 	//its working
 
 
-	 ?>
+?>
+
+<form method="post" action="other.php">
+
+	<input type="text" name="riyad" value="">
+
+	<input type="submit" name="" value="submit" >
+
+	<input type="button" name="" value="submit">
+
+
+</form>
+
+<!-- summery : tried different way but I could not submit a form without using a form;
+javascript can come up with a support for this issue -->
 
 
 
 
 
 
-
-
-
-  
 
 
 <!-- body should end after this statement -->
-  <?php 
+<?php 
 
 include 'linker_files/tail.html';
 
 
- ?>
+?>
 
 
 
