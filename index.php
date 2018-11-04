@@ -15,7 +15,22 @@ include 'linker_files/head.html';
   <!-- Add your site or application content here -->
   
 
- 	//checking test
+ 	<!-- checking php post super globals -->
+
+	
+	<?php 
+
+	$_POST['hellow'] = 'riyad';
+
+
+	echo $_POST['hellow'];
+	//its working
+
+
+	 ?>
+
+
+
 
 
 
