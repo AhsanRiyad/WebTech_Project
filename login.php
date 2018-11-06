@@ -22,8 +22,12 @@ include 'linker_files/head.html';
 					<input type="checkbox" class="form-check-input" id="exampleCheck1">
 					<label class="form-check-label" for="exampleCheck1">Keep me logged in</label>
 				</div>
-				<button type="submit" class="btn btn-primary">Submit</button>
 				
+
+				<button type="submit" class="btn btn-success">Log In</button>
+
+				<p class="p_style">Not a member yet?</p>
+				<button type="submit" class="btn btn-primary">Register Here</button>
 
 			</form>
 		</div>
@@ -40,11 +44,3 @@ include 'linker_files/head.html';
 <?php 
 include 'linker_files/tail.html';
 ?>
-
-
-
-
-
-
-
-
