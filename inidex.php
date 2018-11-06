@@ -1,13 +1,11 @@
 <?php 
 include 'linker_files/head.html';
 ?>
-<!-- body starts-->
+<!-- body starts here -->
 
 
 
-
-
-<!-- body ends-->
+<!-- body ends here -->
 <?php 
 include 'linker_files/tail.html';
 ?>
