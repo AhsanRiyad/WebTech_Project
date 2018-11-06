@@ -6,8 +6,8 @@ include 'linker_files/head.html';
 
 
 <div class="container">
-	<div class="row">
-		<div class="col-12">
+	<div class="row justify-content-md-center">
+		<div class="col-12 col-md-6">
 			<form>
 				<div class="form-group">
 					<label for="exampleInputEmail1">Email address</label>
@@ -20,9 +20,11 @@ include 'linker_files/head.html';
 				</div>
 				<div class="form-group form-check">
 					<input type="checkbox" class="form-check-input" id="exampleCheck1">
-					<label class="form-check-label" for="exampleCheck1">Check me out</label>
+					<label class="form-check-label" for="exampleCheck1">Keep me logged in</label>
 				</div>
 				<button type="submit" class="btn btn-primary">Submit</button>
+				
+
 			</form>
 		</div>
 	</div>
