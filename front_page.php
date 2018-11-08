@@ -57,10 +57,10 @@ include 'linker_files/head.html';
 <br>
 <div class="container-fluid">
 	<div class="row">
-		<div class="col"><img src="img/new_product.jpg" alt=""><br/><a href="" class="btn btn-info"><h3>Product Details</h3></a></div>
-		<div class="col"><img src="img/new_product.jpg" alt=""><br/><a href="" class="btn btn-info"><h3>Product Details</h3></a></div>
-		<div class="col"><img src="img/new_product.jpg" alt=""><br/><a href="" class="btn btn-info"><h3>Product Details</h3></a></div>
-		<div class="col"><img src="img/new_product.jpg" alt=""><br/><a href="" class="btn btn-info"><h3>Product Details</h3></a></div>
+		<div class="col"><img src="img/new_product.jpg" alt=""><br/><a href="product_details.php" class="btn btn-info"><h3>Product Details</h3></a></div>
+		<div class="col"><img src="img/new_product.jpg" alt=""><br/><a href="product_details.php" class="btn btn-info"><h3>Product Details</h3></a></div>
+		<div class="col"><img src="img/new_product.jpg" alt=""><br/><a href="product_details.php" class="btn btn-info"><h3>Product Details</h3></a></div>
+		<div class="col"><img src="img/new_product.jpg" alt=""><br/><a href="product_details.php" class="btn btn-info"><h3>Product Details</h3></a></div>
 		
 		
 	</div>
@@ -74,10 +74,10 @@ include 'linker_files/head.html';
 <br>
 <div class="container-fluid">
 	<div class="row">
-		<div class="col"><img src="img/Best-Seller.png" alt=""><br/><a href="" class="btn btn-info"><h3>Product Details</h3></a></div>
-		<div class="col"><img src="img/Best-Seller.png" alt=""><br/><a href="" class="btn btn-info"><h3>Product Details</h3></a></div>
-		<div class="col"><img src="img/Best-Seller.png" alt=""><br/><a href="" class="btn btn-info"><h3>Product Details</h3></a></div>
-		<div class="col"><img src="img/Best-Seller.png" alt=""><br/><a href="" class="btn btn-info"><h3>Product Details</h3></a></div>
+		<div class="col"><img src="img/Best-Seller.png" alt=""><br/><a href="product_details.php" class="btn btn-info"><h3>Product Details</h3></a></div>
+		<div class="col"><img src="img/Best-Seller.png" alt=""><br/><a href="product_details.php" class="btn btn-info"><h3>Product Details</h3></a></div>
+		<div class="col"><img src="img/Best-Seller.png" alt=""><br/><a href="product_details.php" class="btn btn-info"><h3>Product Details</h3></a></div>
+		<div class="col"><img src="img/Best-Seller.png" alt=""><br/><a href="product_details.php" class="btn btn-info"><h3>Product Details</h3></a></div>
 		
 		
 	</div>
