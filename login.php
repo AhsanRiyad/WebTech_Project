@@ -8,7 +8,7 @@ include 'linker_files/head.html';
 <div class="container">
 	<div class="row justify-content-md-center">
 		<div class="col-12 col-md-6">
-			<form>
+			<form action="reg_success.php">
 				<div class="form-group">
 					<label for="exampleInputEmail1">Email address</label>
 					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -27,7 +27,7 @@ include 'linker_files/head.html';
 				<button type="submit" class="btn btn-success">Log In</button>
 
 				<p class="p_style">Not a member yet?</p>
-				<button type="submit" class="btn btn-primary">Register Here</button>
+				<a class="btn btn-primary" href="reg.php">Register Here</a>
 
 			</form>
 		</div>

@@ -2,19 +2,16 @@
 include 'linker_files/head.html';
 ?>
 <!-- body starts here -->
-
-<h1 align="center">Message Status</h1>
-
+<h1 align="center">Status</h1>
 <div class="container">
 	<div class="row">
 		<div class="col">
 			<hr>
 			<div class="alert alert-success">
-			  <strong>Success!</strong> Message Sent Successfully
+			  <strong>Success!</strong> Welcome, Member!
 			</div>
 			<br>
 			<a href="admin_home.php" class="btn btn-info">Account Area</a>
-			<a href="msg_req.php" class="btn btn-secondary">Goto Msg Reqest</a>
 		</div>
 	</div>
 </div>

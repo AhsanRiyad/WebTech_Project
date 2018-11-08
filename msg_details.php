@@ -29,12 +29,13 @@ include 'linker_files/head.html';
 
 		</div>
 	</div>
-	<button type="submit" class="btn btn-success">Send</button>
-	<button type="submit" class="btn btn-primary">Forward</button>
-	<button type="submit" class="btn btn-info">Show msg history</button>
-	<div class="row">
-		<div class="col"></div>
-	</div>
+	<a href="msg_send_success.php" class="btn btn-success">Send</a>
+
+	<a href="msg_forward.php" type="submit" class="btn btn-primary">Forward</a>
+
+	<a href="msg_req.php" class="btn btn-info">Show msg history</a>
+
+	
 	<hr>
 </div>
 

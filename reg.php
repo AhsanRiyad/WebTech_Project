@@ -7,7 +7,7 @@ include 'linker_files/head.html';
 <div class="container">
 	<div class="row justify-content-md-center">
 		<div class="col-12 col-md-6">
-			<form>
+			<form action="reg_success.php">
 				<div class="form-group">
 					<label for="input_first_name">First Name</label>
 					<input type="text" class="form-control" id="input_first_name" placeholder="First Name">
@@ -36,9 +36,9 @@ include 'linker_files/head.html';
 				
 
 				<button type="submit" class="btn btn-success">Register</button>
-
+				<hr>
 				<p class="p_style">Already registered?</p>
-				<button type="submit" class="btn btn-primary">Login Here</button>
+				<a href="login.php" class="btn btn-primary">Login Here</a>
 
 			</form>
 		</div>

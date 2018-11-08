@@ -13,8 +13,8 @@ include 'linker_files/head.html';
 				<button type="submit" class="btn btn-success">Send</button>
 				<br>
 				<hr>
-				<a href="#" class="btn btn-info">Goto Home</a>
-				<a href="#" class="btn btn-secondary">Goto Msg Reqest</a>
+				<a href="admin_home.php" class="btn btn-info">Goto Home</a>
+				<a href="msg_req.php" class="btn btn-secondary">Goto Msg Reqest</a>
 			</form>
 		</div>
 	</div>

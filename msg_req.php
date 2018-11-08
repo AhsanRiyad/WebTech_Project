@@ -22,7 +22,7 @@ include 'linker_files/head.html';
 	      <td>riyad@gmail.com</td>
 	      <td>order help</td>
 	      <td>10/12/18</td>
-	      <td><a href="#" class="btn btn-info">Details</a></td>
+	      <td><a href="msg_details.php" class="btn btn-info">Details</a></td>
 	    </tr>
 	    <tr>
 	      <th scope="row">2</th>
@@ -30,21 +30,18 @@ include 'linker_files/head.html';
 	      <td>riyad@gmail.com</td>
 	      <td>order help</td>
 	      <td>10/12/18</td>
-	      <td><a href="#" class="btn btn-info">Details</a></td>
+	      <td><a href="msg_details.php" class="btn btn-info">Details</a></td>
 	    </tr>
 	    <tr>
 	      <th scope="row">3</th>
 	      <td>riyad@gmail.com</td>
 	      <td>order help</td>
 	      <td>10/12/18</td>
-	      <td><a href="#" class="btn btn-info">Details</a></td>
+	      <td><a href="msg_details.php" class="btn btn-info">Details</a></td>
 	    </tr>
 	  </tbody>
 	</table>
 	
-	
-	  </tbody>
-	</table>
 </div>
 
 
