@@ -40,10 +40,10 @@ include 'linker_files/head.html';
 <br>
 <div class="container-fluid">
 	<div class="row">
-		<div class="col"><img src="img/category.png" alt=""><br/><a href="" class="btn btn-info"><h3>Catergory Name</h3></a></div>
-		<div class="col"><img src="img/category.png" alt=""><br/><a href="" class="btn btn-info"><h3>Catergory Name</h3></a></div>
-		<div class="col"><img src="img/category.png" alt=""><br/><a href="" class="btn btn-info"><h3>Catergory Name</h3></a></div>
-		<div class="col"><img src="img/category.png" alt=""><br/><a href="" class="btn btn-info"><h3>Catergory Name</h3></a></div>
+		<div class="col"><img src="img/category.png" alt=""><br/><a href="category_detail.php" class="btn btn-info"><h3>Catergory Name</h3></a></div>
+		<div class="col"><img src="img/category.png" alt=""><br/><a href="category_detail.php" class="btn btn-info"><h3>Catergory Name</h3></a></div>
+		<div class="col"><img src="img/category.png" alt=""><br/><a href="category_detail.php" class="btn btn-info"><h3>Catergory Name</h3></a></div>
+		<div class="col"><img src="img/category.png" alt=""><br/><a href="category_detail.php" class="btn btn-info"><h3>Catergory Name</h3></a></div>
 		
 		
 	</div>
