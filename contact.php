@@ -6,7 +6,7 @@ include 'linker_files/head.html';
 <div class="container">
 	<div class="row justify-content-md-center">
 		<div class="col-12 col-md-6">
-			<form>
+			<form action="send_msg_user.php">
 				
 
 				<div class="form-group">
@@ -27,6 +27,8 @@ include 'linker_files/head.html';
 					<label for="exampleFormControlTextarea1">Write Your msg:</label>
 					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 				</div>
+
+				<button type="submit" class="btn btn-success">Send</button>
 			</form>
 
 
@@ -34,7 +36,7 @@ include 'linker_files/head.html';
 
 
 
-			<button type="submit" class="btn btn-success">Send</button>
+			
 
 			<p class="p_style">Visit our FAQ</p>
 			<button type="submit" class="btn btn-primary">FAQ</button>
