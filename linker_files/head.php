@@ -25,7 +25,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-2"><a href="front_page.php"><img src="img/logo.png"></a></div>
+      <div class="col-2"><a href="index.php"><img src="img/logo.png"></a></div>
       <div class="offset-md-1 col-4 div_margin">
 
         <input  class="form-control" type="text" placeholder="Default input"> 
