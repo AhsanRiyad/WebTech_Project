@@ -1,5 +1,5 @@
 <?php 
-include 'linker_files/head.html';
+include 'linker_files/head.php';
 ?>
 <!-- body starts here -->
 <h1 align="center">Status</h1>
@@ -19,7 +19,7 @@ include 'linker_files/head.html';
 
 <!-- body ends here -->
 <?php 
-include 'linker_files/tail.html';
+include 'linker_files/tail.php';
 ?>
 
 

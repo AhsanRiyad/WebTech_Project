@@ -1,5 +1,5 @@
 <?php 
-include 'linker_files/head.html';
+include 'linker_files/head.php';
 ?>
 <!-- body starts-->
 
@@ -42,5 +42,5 @@ include 'linker_files/head.html';
 
 <!-- body ends-->
 <?php 
-include 'linker_files/tail.html';
+include 'linker_files/tail.php';
 ?>
