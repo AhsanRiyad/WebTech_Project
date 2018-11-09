@@ -26,21 +26,30 @@
   <div class="container">
     <div class="row">
       <div class="col-2"><a href="index.php"><img src="img/logo.png"></a></div>
-      <div class="offset-md-1 col-4 div_margin">
+      <div class="offset-md-0 col-6 div_margin">
 
-        <input  class="form-control" type="text" placeholder="Default input"> 
-
+        <form action="search_result.php">
+          <div class="form-row align-items-center">
+            <div class="col-9">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"><i class="fas fa-search"></i></div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Search">
+              </div>
+            </div>
+            <div class="col-3">
+              <button type="submit" class="btn btn-primary mb-2">Search</button>
+            </div>
+          </div>
+        </form>
 
 
       </div>
       
 
 
-      <div class="col div_margin">
-        <form action="search_result.php">
-          <input type="submit" class="btn btn-primary display_" value="Search"></input>
-        </form>
-      </div>
+      
 
 
 
