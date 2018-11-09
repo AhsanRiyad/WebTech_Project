@@ -1,3 +1,10 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+
+
 .p_style{
 	color:red;
 	margin-top: 10px;
@@ -12,8 +19,6 @@
 
 .catergory_color{
 	color: #51A5D0;
-	text-align: center;
-
 }
 
 .admin_background{
@@ -21,3 +26,23 @@
 
 
 }
+.image_div {
+        position: relative;
+        width: 10%;
+        max-width: 10%;
+        float: left;
+        overflow: hidden;
+        color: white;
+		border: 1px solid black;
+
+    }
+
+
+.imageOverlay2 {
+        opacity: 1;
+
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
