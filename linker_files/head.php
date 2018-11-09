@@ -29,10 +29,10 @@
         <div class="col">
           <div class="container">
             <div class="row">
-              <div class="col-md-2 col-12 justify-content-md-start d-flex justify-content-center"><a href="index.php"><img src="img/logo.png"></a>
+              <div class="col-lg-2 col-12 justify-content-lg-start d-flex justify-content-center"><a href="index.php"><img src="img/logo.png"></a>
               </div>
 
-              <div class="col-md-4 col-lg-6 col-12 align-self-md-center">
+              <div class="col-lg-6 col-12 align-self-lg-center">
           
                 <form action="search_result.php">
                   <div class="form-row align-items-center">
@@ -51,12 +51,12 @@
                   </div>
                 </form> 
               </div>
-            <div class="col-md-2 col-lg-1 col-3 offset-1 mt-3 mb-3 mb-md-0 mt-md-0 offset-md-0 d-flex justify-content-center align-self-md-center"><a href="login.php" class="btn btn-success"> Sign In</a></div>
+            <div class="col-lg-1  col-3 offset-1 mt-3 mb-3 mb-lg-0 mt-lg-0 offset-lg-0 d-flex justify-content-center align-self-lg-center"><a href="login.php" class="btn btn-success"> Sign In</a></div>
           
-            <div class="col-md-2  col-lg-1 col-3 mt-3 mb-3 mb-md-0 mt-md-0 d-flex justify-content-center align-self-md-center"><a href="contact.php" class="btn btn-info">Need Help?</a></div>
+            <div class=" col-lg-2 col-xl-1 col-3 mt-3 mb-3 mb-lg-0 mt-lg-0 d-flex justify-content-center align-self-lg-center"><a href="contact.php" class="btn btn-info">Need Help?</a></div>
           
           
-            <div class="col-md-2  col-lg-1 col-3 mt-3 mb-3 mb-md-0 mt-md-0 d-flex justify-content-center align-self-md-center">
+            <div class=" col-lg-1 col-3 mt-3 mb-3 mb-lg-0 mt-lg-0 d-flex justify-content-center align-self-lg-center">
               <a href="cart.php" class="btn btn-danger text-link">
                 Cart <span class="badge badge-light">4</span>
               </a>
