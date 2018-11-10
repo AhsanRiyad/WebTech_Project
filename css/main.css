@@ -27,22 +27,46 @@ body{
 
 }
 .image_div {
-        position: relative;
-        width: 10%;
-        max-width: 10%;
-        float: left;
-        overflow: hidden;
-        color: white;
-		border: 1px solid black;
+    position: relative;
+    width: 12.5%;
+    max-width: 12.5%;
+    float: left;
+    color: white;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+    transition: all .5s ease;
+    background-color: white;
 
-    }
+}
+
+
+.image_div:hover {
+    box-shadow: 0 0 10px #888888;
+    overflow: visible;
+    transform:  scale3d(1.03,1.03,1.03);
+    z-index: 200;
+    border: none;
+}
 
 
 .imageOverlay2 {
-        opacity: 1;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
 
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
+.w_p{
+    width: 99%;
+    max-width: 99%;
+    height: auto;
+}
+
+.checked {
+    color: orange;
+}
+
+.m_t {
+    margin-top: -10px;
+}
