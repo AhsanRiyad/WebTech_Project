@@ -6,10 +6,8 @@
     <div class="col">
       <div class="container text-white">
         <div class="row">
-          <div class="col-md-3 col-12 text-center text-sm-left">
-            <br>
-            <br>
-            <br>
+          <div class="col-md-3 col-12 text-center text-sm-left pt-lg-5 pt-5">
+            
             <h5>Get to know us</h5>
             <a class="href_color" href="">About Us</a><br>
             <a class="href_color" href="">Privacy Policy</a><br>
@@ -17,27 +15,24 @@
             <a class="href_color" href="">Warranty Policy</a><br>
       
           </div>
-          <div class="col-md-3 col-12 text-center text-sm-left"><br>
-            <br>
-            <br>
-            
+          <div class="col-md-3 col-12 text-center text-sm-left pt-lg-5 pt-5">
+             
             <h5>Let Us Help You</h5>
             <a class="href_color" href="">Your account</a><br>
             <a class="href_color" href="">Your order</a><br>
             <a class="href_color" href="">Track your order</a><br>
             <a class="href_color" href="">How to place an order</a><br></div>
-            <div class="col-md-3 col-12 text-center text-sm-left">
-              <br>
-              <br>
-              <br>
+            <div class="col-md-3 col-12 text-center text-sm-left pt-lg-5 pt-5">
+              
               <h5>Get in touch</h5>
               <a class="href_color" href="">Contact Us</a><br>
               <a class="href_color" href="">Our Blogs</a><br>
               <a class="href_color" href="">Track your order</a><br>
-              <a class="href_color" href="">How to place an order</a><br></div>
-              <div class="col-md-3  col-12 text-center text-sm-left"><br>
-              <br>
-              <br>
+              <a class="href_color" href="">How to place an order</a><br>
+
+            </div>
+              <div class="col-md-3  col-12 text-center text-sm-left pt-lg-5 pt-5 pb-5">
+              
               <h5>UMART&trade;</h5>
               <h6>House:84</h6>
               <h6>Road: 04</h6>
@@ -50,6 +45,25 @@
     </div>
   </div>
 </div>
+
+
+<div class="container-fluid">
+  <div class="row bg-secondary pb-3 pt-3">
+    <div class="col">
+      <div class="container">
+        <div class="row text-center text-lg-left">
+          <div class="col"><i class="far fa-copyright text-white"></i><a class="text-white" href="http://fiver.com/riyadahsan"> 2018 Riyad Ahsan <abbr title="Web Developer"> All Rights Reserved</abbr></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
 
     <!-- bootstrap js cdn -->
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
