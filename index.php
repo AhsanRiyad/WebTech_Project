@@ -641,6 +641,8 @@ include 'linker_files/head.php';
 						
 					</div>
 
+
+					<!-- load more button -->
 					<div class="col-12 d-flex justify-content-center mb-2 mt-4">
 							<button class="load_more_button">
 								LOAD MORE

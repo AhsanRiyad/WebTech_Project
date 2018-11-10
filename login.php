@@ -4,36 +4,46 @@ include 'linker_files/head.php';
 <!-- body starts-->
 
 
+<form action="reg_success.php">
+	<div class="container-fluid">
+		<div class="row justify-content-lg-center admin_background">
+			<div class="col-12 col-lg-6 ">
+				<div class="container">
+					<div class="row py-4">
+						<p class="text-dark h4">Welcome to Umart! Please login</p>
+					</div>
 
-<div class="container">
-	<div class="row justify-content-md-center">
-		<div class="col-12 col-md-6">
-			<form action="reg_success.php">
-				<div class="form-group">
-					<label for="exampleInputEmail1">Email address</label>
-					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-				</div>
-				<div class="form-group">
-					<label for="exampleInputPassword1">Password</label>
-					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-				</div>
-				<div class="form-group form-check">
-					<input type="checkbox" class="form-check-input" id="exampleCheck1">
-					<label class="form-check-label" for="exampleCheck1">Keep me logged in</label>
-				</div>
+					<div class="row justify-content-lg-center bg-white py-5 mb-5">
 				
-
-				<button type="submit" class="btn btn-success">Log In</button>
-
-				<p class="p_style">Not a member yet?</p>
-				<a class="btn btn-primary" href="reg.php">Register Here</a>
-
-			</form>
+						<div class="col-12 col-lg-6 ">
+							<div class="form-group">
+								<label for="exampleInputEmail1"><small>Email address*</small></label>
+								<input  type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword1"><small>Password*</small></label>
+								<input type="password" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Password">
+								<p class="text-right text-danger">
+									<small><a href="">Forgot password?</a></small>
+								</p>
+							</div>
+				
+						</div>
+						<div class="col-12 col-lg-5 align-self-lg-center">
+							<button type="submit" class="btn btn-success rounded-0 w-100 py-2">Log In</button>
+				
+							<p class="text-danger h5 mt-2"><i>Not a member yet?</i></p>
+							<button class="btn btn-primary rounded-0 w-100 py-2" href="reg.php">Register Here</button>
+				
+						</div>
+						
+				
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
-
+</form>
 
 
 

@@ -2,7 +2,7 @@
 /*css variable function*/
 :root{
     color_info:#51A5D0;
-    
+
 }
 
 
@@ -44,7 +44,6 @@ body{
 .admin_background{
 	background-color: lightgrey;
 }
-
 
 /*used for category div*/
 .image_div {
@@ -111,8 +110,6 @@ body{
     color: #17B0CF;
     border:1px solid #17B0CF;
     background-color: transparent;
-
-
 }
 .load_more_button:hover{
     cursor: pointer;
@@ -121,7 +118,10 @@ body{
 
 
 
+/*login page starts*/
 
+
+/*login page ends*/
 
 
 
