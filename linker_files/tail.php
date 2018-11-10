@@ -9,26 +9,26 @@
           <div class="col-md-3 col-12 text-center text-sm-left pt-lg-5 pt-5">
             
             <h5>Get to know us</h5>
-            <a class="href_color" href="">About Us</a><br>
-            <a class="href_color" href="">Privacy Policy</a><br>
-            <a class="href_color" href="">Cookie Policy</a><br>
-            <a class="href_color" href="">Warranty Policy</a><br>
+            <a class="text-white" href="">About Us</a><br>
+            <a class="text-white" href="">Privacy Policy</a><br>
+            <a class="text-white" href="">Cookie Policy</a><br>
+            <a class="text-white" href="">Warranty Policy</a><br>
       
           </div>
           <div class="col-md-3 col-12 text-center text-sm-left pt-lg-5 pt-5">
              
             <h5>Let Us Help You</h5>
-            <a class="href_color" href="">Your account</a><br>
-            <a class="href_color" href="">Your order</a><br>
-            <a class="href_color" href="">Track your order</a><br>
-            <a class="href_color" href="">How to place an order</a><br></div>
+            <a class="text-white" href="">Your account</a><br>
+            <a class="text-white" href="">Your order</a><br>
+            <a class="text-white" href="">Track your order</a><br>
+            <a class="text-white" href="">How to place an order</a><br></div>
             <div class="col-md-3 col-12 text-center text-sm-left pt-lg-5 pt-5">
               
               <h5>Get in touch</h5>
-              <a class="href_color" href="">Contact Us</a><br>
-              <a class="href_color" href="">Our Blogs</a><br>
-              <a class="href_color" href="">Track your order</a><br>
-              <a class="href_color" href="">How to place an order</a><br>
+              <a class="text-white" href="">Contact Us</a><br>
+              <a class="text-white" href="">Our Blogs</a><br>
+              <a class="text-white" href="">Track your order</a><br>
+              <a class="text-white" href="">How to place an order</a><br>
 
             </div>
               <div class="col-md-3  col-12 text-center text-sm-left pt-lg-5 pt-5 pb-5">
