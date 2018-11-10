@@ -52,7 +52,7 @@ include 'linker_files/head.php';
 	
 	<hr>
 	<a href="checkout.php" class="btn btn-warning">Proceed To Checkout</a>
-	<a href="front_page.php" class="btn btn-info">Continue Shopping</a>
+	<a href="index.php" class="btn btn-info">Continue Shopping</a>
 
 
 </div>

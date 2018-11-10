@@ -47,22 +47,25 @@ include 'linker_files/head.php';
 				<div class="row">
 					<h3 class="pt-5">Categories</h3>
 					<div class="w-100"></div>
-					<div class="image_div text-info text-center text-info"><img class="imageOverlay2" src="img/cat1.jpg" alt=""> <br> <p>Mobile</p> </div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>	
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>		
-					<div class="image_div text-info text-center"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>	
+					<div class="image_div text-info text-center text-info"
+					onclick="location.href='category_detail.php';"
+
+					><img class="imageOverlay2" src="img/cat1.jpg" alt=""> <br> <p>Mobile</p> </div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>	
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>		
+					<div class="image_div text-info text-center" onclick="location.href='category_detail.php';"><img class="imageOverlay2" src="img/cat1.jpg" alt=""><br><p class="">Mobile</p></div>	
 				</div>
 			</div>
 		</div>
@@ -78,37 +81,8 @@ include 'linker_files/head.php';
 				<div class="row pt-5">
 					<h3>Just In</h3>
 					<div class="w-100"></div>
-					<div class="col-md-2  ">
-						<div class="w_p bg-white ">
-							<img class="img-fluid" src="img/cat1.jpg" alt="">
-
-							<div class="w-100 pl-2">
-								<h6>Mobile phones</h6>
-								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
-									<strike class="text-muted">$5000
-									</strike>
-									<small class="text-muted"> 39%</small>
-								</p>
-								<div class="w-100 m_t pb-3">
-									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									
-								</div>
-								
-
-							</div>
-
-						</div>
-						
-					</div>
-					
-					<div class="col-md-2  ">
-						<div class="w_p bg-white ">
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3" >
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
 							<img class="img-fluid" src="img/cat1.jpg" alt="">
 
 							<div class="w-100 pl-2">
@@ -136,36 +110,8 @@ include 'linker_files/head.php';
 						
 					</div>
 
-					<div class="col-md-2  ">
-						<div class="w_p bg-white ">
-							<img class="img-fluid" src="img/cat1.jpg" alt="">
-
-							<div class="w-100 pl-2">
-								<h6>Mobile phones</h6>
-								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
-									<strike class="text-muted">$5000
-									</strike>
-									<small class="text-muted"> 39%</small>
-								</p>
-								<div class="w-100 m_t pb-3">
-									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									
-								</div>
-								
-
-							</div>
-
-						</div>
-						
-					</div>
-					<div class="col-md-2  ">
-						<div class="w_p bg-white ">
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3   ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
 							<img class="img-fluid" src="img/cat1.jpg" alt="">
 
 							<div class="w-100 pl-2">
@@ -193,8 +139,36 @@ include 'linker_files/head.php';
 						
 					</div>
 
-					<div class="col-md-2  ">
-						<div class="w_p bg-white ">
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3   ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3   ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
 							<img class="img-fluid" src="img/cat1.jpg" alt="">
 
 							<div class="w-100 pl-2">
@@ -222,8 +196,37 @@ include 'linker_files/head.php';
 						
 					</div>
 
-					<div class="col-md-2  ">
-						<div class="w_p bg-white ">
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3   ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3" >
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
 							<img class="img-fluid" src="img/cat1.jpg" alt="">
 
 							<div class="w-100 pl-2">
@@ -260,22 +263,385 @@ include 'linker_files/head.php';
 
 
 
-<!--Best Selling product category added -->
-<br>
-<br>
-<h1 class="catergory_color">Best selling Products</h1>
-<br>
+<!--Best selling product category added -->
 <div class="container-fluid">
-	<div class="row">
-		<div class="col"><img src="img/Best-Seller.png" alt=""><br/><a href="product_details.php" class="btn btn-info"><h3>Product Details</h3></a></div>
-		<div class="col"><img src="img/Best-Seller.png" alt=""><br/><a href="product_details.php" class="btn btn-info"><h3>Product Details</h3></a></div>
-		<div class="col"><img src="img/Best-Seller.png" alt=""><br/><a href="product_details.php" class="btn btn-info"><h3>Product Details</h3></a></div>
-		<div class="col"><img src="img/Best-Seller.png" alt=""><br/><a href="product_details.php" class="btn btn-info"><h3>Product Details</h3></a></div>
-		
-		
+	<div class="row bg-light">
+		<div class="col">
+			<div class="container">
+				<div class="row pt-5">
+					<h3>Best Seller</h3>
+					<div class="w-100"></div>
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3    ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3   ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3   ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3   ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3   ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3" >
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
+
+
+
+
+<!--Recommended product category added -->
+<div class="container-fluid">
+	<div class="row bg-light">
+		<div class="col">
+			<div class="container">
+				<div class="row pt-5">
+					<h3>Recommended for you</h3>
+					<div class="w-100"></div>
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3    ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3   ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3   ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3   ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3   ">
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+
+					<div class="col-xl-2 col-6  mt-xl-0 mt-3" >
+						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
+							<img class="img-fluid" src="img/cat1.jpg" alt="">
+
+							<div class="w-100 pl-2">
+								<h6>Mobile phones</h6>
+								<h6 class="text-danger">$2490</h6>
+								<p class="text-danger"> 
+									<strike class="text-muted">$5000
+									</strike>
+									<small class="text-muted"> 39%</small>
+								</p>
+								<div class="w-100 m_t pb-3">
+									
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star"></span>
+									
+								</div>
+								
+
+							</div>
+
+						</div>
+						
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 

@@ -1,9 +1,11 @@
 body{
 	font-family: 'PT Sans', sans-serif;
 
+} 
+.yes{
+    width: 200px;
+    height: 200px;
 }
-
-
 
 .p_style{
 	color:red;
@@ -46,6 +48,7 @@ body{
     transform:  scale3d(1.03,1.03,1.03);
     z-index: 200;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -61,7 +64,17 @@ body{
     width: 99%;
     max-width: 99%;
     height: auto;
+    transition: all 1s ease;
 }
+.w_p:hover{
+    box-shadow: 0 0 10px #888888;
+    overflow: visible;
+    transform:  scale3d(1.01,1.01,1.01);
+    z-index: 200;
+    border: none;
+    cursor: pointer;
+}
+
 
 .checked {
     color: orange;
@@ -69,4 +82,36 @@ body{
 
 .m_t {
     margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .image_div {
+    position: relative;
+    width: 25%;
+    max-width: 25%;
+    float: left;
+    color: white;
+    overflow: hidden;
+    border: 1px solid lightgrey;
+    transition: all .5s ease;
+    background-color: white;
+
+}
+
+
+
+
+
+
+
+
 }
