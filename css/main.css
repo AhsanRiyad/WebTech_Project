@@ -86,8 +86,29 @@ body{
 
 
 
+.load_more_button{
+    padding: 10px 100px;
+    color: #17B0CF;
+    border:1px solid #17B0CF;
+    background-color: transparent;
 
 
+}
+.load_more_button:hover{
+    cursor: pointer;
+
+
+}
+
+
+
+.href_color{
+    color:white;
+}
+.href_color:hover{
+    color:white;
+    text-decoration: none;
+}
 
 
 

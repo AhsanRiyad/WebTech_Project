@@ -1,50 +1,55 @@
 
 
 
-<div class="container">
-  <div class="row">
-    <div class="col-3">
-      <br>
-      <br>
-      <br>
-      <h3>Get to know us</h3>
-      <a href="">About Us</a><br>
-      <a href="">Privacy Policy</a><br>
-      <a href="">Cookie Policy</a><br>
-      <a href="">Warranty Policy</a><br>
-
-    </div>
-    <div class="col-3"><br>
-      <br>
-      <br>
+<div class="container-fluid">
+  <div class="row bg-dark">
+    <div class="col">
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-3">
+            <br>
+            <br>
+            <br>
+            <h5>Get to know us</h5>
+            <a class="href_color" href="">About Us</a><br>
+            <a class="href_color" href="">Privacy Policy</a><br>
+            <a class="href_color" href="">Cookie Policy</a><br>
+            <a class="href_color" href="">Warranty Policy</a><br>
       
-      <h3>Let Us Help You</h3>
-      <a href="">Your account</a><br>
-      <a href="">Your order</a><br>
-      <a href="">Track your order</a><br>
-      <a href="">How to place an order</a><br></div>
-      <div class="col-3">
-        <br>
-        <br>
-        <br>
-        <h3>Get in touch</h3>
-        <a href="">Contact Us</a><br>
-        <a href="">Our Blogs</a><br>
-        <a href="">Track your order</a><br>
-        <a href="">How to place an order</a><br></div>
-        <div class="col-3"><br>
-        <br>
-        <br>
-        <h3>Umart.com</h3>
-        <h5>House:84</h5>
-        <h5>Road: 04</h5>
-        <h5>Block: B</h5>
-        <h5>Bashundhara R/A</h5>
-        <h5>Dhaka-1216</h5>
-      </div>
-      </div>
+          </div>
+          <div class="col-3"><br>
+            <br>
+            <br>
+            
+            <h5>Let Us Help You</h5>
+            <a class="href_color" href="">Your account</a><br>
+            <a class="href_color" href="">Your order</a><br>
+            <a class="href_color" href="">Track your order</a><br>
+            <a class="href_color" href="">How to place an order</a><br></div>
+            <div class="col-3">
+              <br>
+              <br>
+              <br>
+              <h5>Get in touch</h5>
+              <a class="href_color" href="">Contact Us</a><br>
+              <a class="href_color" href="">Our Blogs</a><br>
+              <a class="href_color" href="">Track your order</a><br>
+              <a class="href_color" href="">How to place an order</a><br></div>
+              <div class="col-3"><br>
+              <br>
+              <br>
+              <h5>UMART&trade;</h5>
+              <h6>House:84</h6>
+              <h6>Road: 04</h6>
+              <h6>Block: B</h6>
+              <h6>Bashundhara R/A</h6>
+              <h6>Dhaka-1216</h6>
+            </div>
+            </div>
+          </div>
     </div>
-
+  </div>
+</div>
 
     <!-- bootstrap js cdn -->
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

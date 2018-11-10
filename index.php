@@ -636,6 +636,20 @@ include 'linker_files/head.php';
 						
 					</div>
 					
+					
+					<div class="w-100">
+						
+					</div>
+
+					<div class="col-12 d-flex justify-content-center mb-2 mt-4">
+							<button class="load_more_button">
+								LOAD MORE
+							</button>				
+					</div>
+	
+					<div class="w-100 mb-3">
+						<hr>
+					</div>
 
 				</div>
 			</div>
