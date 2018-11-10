@@ -6,7 +6,7 @@
     <div class="col">
       <div class="container text-white">
         <div class="row">
-          <div class="col-3">
+          <div class="col-md-3 col-12 text-center text-sm-left">
             <br>
             <br>
             <br>
@@ -17,7 +17,7 @@
             <a class="href_color" href="">Warranty Policy</a><br>
       
           </div>
-          <div class="col-3"><br>
+          <div class="col-md-3 col-12 text-center text-sm-left"><br>
             <br>
             <br>
             
@@ -26,7 +26,7 @@
             <a class="href_color" href="">Your order</a><br>
             <a class="href_color" href="">Track your order</a><br>
             <a class="href_color" href="">How to place an order</a><br></div>
-            <div class="col-3">
+            <div class="col-md-3 col-12 text-center text-sm-left">
               <br>
               <br>
               <br>
@@ -35,7 +35,7 @@
               <a class="href_color" href="">Our Blogs</a><br>
               <a class="href_color" href="">Track your order</a><br>
               <a class="href_color" href="">How to place an order</a><br></div>
-              <div class="col-3"><br>
+              <div class="col-md-3  col-12 text-center text-sm-left"><br>
               <br>
               <br>
               <h5>UMART&trade;</h5>
