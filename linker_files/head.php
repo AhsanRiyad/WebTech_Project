@@ -29,6 +29,8 @@
 <body>
 
 
+<!-- navigation bar and search bar starts -->
+
   <div class="container-fluid bg-light">
     <div class="row">
       <div class="col">
@@ -62,7 +64,7 @@
             
             
             <div class=" col-lg-1 col-3 mt-3 mb-3 mb-lg-0 mt-lg-0 d-flex justify-content-center align-self-lg-center">
-              <a href="cart.php" class="btn btn-danger text-link">
+              <a href="cart.php" class="btn btn-danger">
                 Cart <span class="badge badge-light">4</span>
               </a>
             </div>
@@ -73,6 +75,7 @@
       </div>
     </div>
   </div>
+<!-- navigation bar and search bar ends -->
 
 
   

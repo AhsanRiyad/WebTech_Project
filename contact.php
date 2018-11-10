@@ -31,13 +31,6 @@ include 'linker_files/head.php';
 				<button type="submit" class="btn btn-success">Send</button>
 			</form>
 
-
-
-
-
-
-			
-
 			<p class="p_style">Visit our FAQ</p>
 			<button type="submit" class="btn btn-primary">FAQ</button>
 

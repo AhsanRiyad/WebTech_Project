@@ -1,5 +1,5 @@
 
-
+<!-- footer part starts -->
 
 <div class="container-fluid">
   <div class="row bg-dark">
@@ -45,19 +45,23 @@
     </div>
   </div>
 </div>
+<!-- footer part ends -->
 
 
+<!-- copy right part starts -->
 <div class="container-fluid">
   <div class="row bg-secondary pb-3 pt-3">
     <div class="col">
       <div class="container">
         <div class="row text-center text-lg-left">
-          <div class="col"><i class="far fa-copyright text-white"></i><a class="text-white" href="http://fiver.com/riyadahsan"> 2018 Riyad Ahsan <abbr title="Web Developer"> All Rights Reserved</abbr></a></div>
+          <div class="col"><i class="far fa-copyright text-white"></i><a class="text-white" href="http://fiver.com/riyad_ahsan"> 2018 Riyad Ahsan <abbr title="Web Developer"> All Rights Reserved</abbr></a></div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<!-- copy right part ends -->
+
 
 
 
