@@ -40,14 +40,35 @@ body{
 /*admin page starts*/
 .admin_navbar_veritcal{
     height: 100vh;
-
+    position:fixed;
+    height: 100vh;
+    width: 250px;
+    z-index: 1001;
+    top: 0;
+    left:0;
 
 
 }
 
 .admin_navbar_horizontal{
 height:61px;
+position: fixed;
+width: calc(100vw - 250px);
+color: white;
+z-index: 1000;
+top:0;
+left:250px;
+
+
 }
+
+.admin_margin{
+z-index: 10;
+margin-top: 100px;
+margin-left: 300px;
+
+}
+
 /*admin page ends*/
 
 

@@ -3,20 +3,16 @@ include 'linker_files/head_admin.php';
 ?>
 <!-- body starts here -->
 
-<div class="container-fluid fixed-top position-absolute">
-	<div class="row">
-		<!-- fixed horizontal -->
-		<div class="offset-2 col-10  admin_navbar_horizontal bg-secondary d-flex justify-content-center align-items-center">
-			<p class="text-light h3 ">Welcome admin</p>
-		</div>
-	</div>
-</div>
 
-<div class="container-fluid position-absolute">
-	<div class="row">
+		<!-- fixed horizontal -->
+		<div class="admin_navbar_horizontal bg-secondary justify-content-center d-flex align-items-center">
+			<p class="text-white h3">Welcome admin</p>
+		</div>
+
+
 
 		<!-- fixed vertical -->
-		<div class=" admin_navbar_veritcal bg-dark col-2 px-0">
+		<div class=" admin_navbar_veritcal bg-dark ">
 			<div class="w-100 bg-light d-flex justify-content-center">
 				<img class=" py-1" src="img/logo_dashboard.png" alt="">
 
@@ -71,12 +67,12 @@ include 'linker_files/head_admin.php';
 		</div>
 
 	</div>
-</div>
 
 
-<div class="container-fluid">
-	<div class="row">
-		<div class="offset-2 col-10">
+
+<div class="container-fluid admin_margin">
+	<div class="row ">
+		<div class="col-12">
 			<p class="h2 text-dark">Dashboard</p>
 		</div>
 	</div>
