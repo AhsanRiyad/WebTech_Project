@@ -19,7 +19,7 @@ include 'linker_files/head.php';
 						<div class="col-12 col-xl-6 ">
 							<div class="form-group">
 								<label for="exampleInputEmail1"><small>Email address*</small></label>
-								<input  type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 							</div>
 
 							<div class="form-group">
@@ -137,7 +137,7 @@ include 'linker_files/head.php';
 
 						</div>
 
-						<div class="col-12 col-xl-5 align-self-xl-center">
+						<div class="col-12 col-xl-5 ">
 
 							<div class="form-group">
 								<label for="exampleInputEmail1"><small>Full name*</small></label>
@@ -150,9 +150,9 @@ include 'linker_files/head.php';
 							</div>
 
 
-							<button type="submit" name="submit" value="submit" class="btn btn-success rounded-0 w-100 py-2 mt-3 mt-xl-0">Register</button>
+							<button type="submit" name="submit" value="submit" class="btn btn-success rounded-0 w-100 py-2 mt-3 mt-xl-2">Register</button>
 
-							<p class="text-danger h5 mt-2"><i>Already have an account?</i></p>
+							<p class="text-danger h5 mt-4"><i>Already have an account?</i></p>
 
 							<a href="reg.php"><button type="button" class="btn btn-primary rounded-0 w-100 py-2">Register Here</button></a>
 

@@ -18,7 +18,7 @@ include 'linker_files/head.php';
 						<div class="col-12 col-xl-6 ">
 							<div class="form-group">
 								<label for="exampleInputEmail1"><small>Email address*</small></label>
-								<input  type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 							</div>
 							<div class="form-group">
 								<label for="exampleInputPassword1"><small>Password*</small></label>
@@ -51,3 +51,9 @@ include 'linker_files/head.php';
 <?php 
 include 'linker_files/tail.php';
 ?>
+
+
+
+
+
+
