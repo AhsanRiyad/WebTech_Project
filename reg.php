@@ -54,7 +54,7 @@ include 'linker_files/head.php';
 									</div>
 								</div>
 
-								<div class="col-3 px-0">
+							<div class="col-3 px-0">
 									<small>&nbsp</small>
 									<div class="input-group">
 										<select class="custom-select rounded-0 " id="inputGroupSelect01">
@@ -137,7 +137,7 @@ include 'linker_files/head.php';
 
 						</div>
 
-						<div class="col-12 col-xl-5 ">
+						<div class="col-12 col-xl-5 align-self-xl-center">
 
 							<div class="form-group">
 								<label for="exampleInputEmail1"><small>Full name*</small></label>
@@ -150,30 +150,16 @@ include 'linker_files/head.php';
 							</div>
 
 
-							
+							<button type="submit" name="submit" value="submit" class="btn btn-success rounded-0 w-100 py-2 mt-3 mt-xl-0">Register</button>
+
+							<p class="text-danger h5 mt-2"><i>Already have an account?</i></p>
+
+							<a href="reg.php"><button type="button" class="btn btn-primary rounded-0 w-100 py-2">Register Here</button></a>
 
 						</div>
-
-						<div class="w-100"></div>
-
-						<div class="row">
-							<div class="col-12  col-xl-5">
-								<button type="submit" name="submit" value="submit" class="btn btn-success rounded-0 w-100 py-2 mt-3 mt-xl-0">Register</button>
-								
-								<p class="text-danger h5 mt-2"><i>Already have an account?</i></p>
-								
-								<a href="reg.php"><button type="button" class="btn btn-primary rounded-0 w-100 py-2">Register Here</button></a>
-							</div>
-						</div>
-						
-
-
 						
 
 					</div>
-
-					
-
 				</div>
 			</div>
 		</div>
