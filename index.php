@@ -95,10 +95,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -124,10 +124,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -153,10 +153,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -181,10 +181,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -210,10 +210,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -239,10 +239,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -285,10 +285,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -314,10 +314,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -343,10 +343,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -371,10 +371,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -400,10 +400,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -429,10 +429,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -477,10 +477,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -506,10 +506,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -535,10 +535,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -563,10 +563,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -592,10 +592,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
@@ -621,10 +621,10 @@ include 'linker_files/head.php';
 								</p>
 								<div class="w-100 mt-0 pb-3">
 									
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
+									<span class="fa fa-star text-warning"></span>
 									<span class="fa fa-star"></span>
 									
 								</div>
