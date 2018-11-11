@@ -123,20 +123,11 @@ include 'linker_files/head.php';
 								<div class="col-3 pl-1">
 									<small>Gender*</small>
 									<div class="input-group">
-										<select class="custom-select rounded-0" id="inputGroupSelect01">
-											<option selected>Month</option>
-											<option value="1">Jan</option>
-											<option value="2">Feb</option>
-											<option value="3">Mar</option>
-											<option value="4">Apr</option>
-											<option value="5">May</option>
-											<option value="6">Jun</option>
-											<option value="7">Jul</option>
-											<option value="8">Aug</option>
-											<option value="9">Sep</option>
-											<option value="10">Oct</option>
-											<option value="11">Nov</option>
-											<option value="12">Dec</option>
+										<select class="custom-select rounded-0 pl-1 pl-lg-2 " id="inputGroupSelect01">
+											<option selected>Gender</option>
+											<option value="1">Male</option>
+											<option value="2">Female</option>
+											<option value="3">Other</option>
 										</select>
 									</div>
 								</div>
@@ -145,10 +136,23 @@ include 'linker_files/head.php';
 							</div>
 
 						</div>
-						<div class="col-12 col-xl-5 align-self-xl-center">
-							<button type="submit" name="submit" value="submit" class="btn btn-success rounded-0 w-100 py-2">Log In</button>
 
-							<p class="text-danger h5 mt-2"><i>Not a member yet?</i></p>
+						<div class="col-12 col-xl-5 align-self-xl-center">
+
+							<div class="form-group">
+								<label for="exampleInputEmail1"><small>Full name*</small></label>
+								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter full name">
+							</div>
+							
+							<div class="form-group">
+								<label for="exampleInputEmail1"><small>Mobile Number*</small></label>
+								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter mobile number">
+							</div>
+
+
+							<button type="submit" name="submit" value="submit" class="btn btn-success rounded-0 w-100 py-2 mt-3 mt-xl-0">Register</button>
+
+							<p class="text-danger h5 mt-2"><i>Already have an account?</i></p>
 
 							<a href="reg.php"><button type="button" class="btn btn-primary rounded-0 w-100 py-2">Register Here</button></a>
 
