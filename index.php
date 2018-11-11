@@ -454,7 +454,6 @@ include 'linker_files/head.php';
 
 
 
-
 <!--Recommended product category added -->
 <div class="container-fluid">
 	<div class="row bg-light">

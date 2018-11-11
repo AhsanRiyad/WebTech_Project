@@ -3,7 +3,7 @@ include 'linker_files/head.php';
 ?>
 <!-- body starts-->
 
-
+<!-- login form starts -->
 <form action="reg_success.php">
 	<div class="container-fluid">
 		<div class="row justify-content-lg-center admin_background">
@@ -44,10 +44,6 @@ include 'linker_files/head.php';
 		</div>
 	</div>
 </form>
-
-
-
-
 
 
 <!-- body ends-->
