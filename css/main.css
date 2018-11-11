@@ -37,6 +37,21 @@ body{
 /*category details ends*/
 
 
+/*admin page starts*/
+.admin_navbar_veritcal{
+    height: 100vh;
+
+
+
+}
+
+.admin_navbar_horizontal{
+height:61px;
+}
+/*admin page ends*/
+
+
+
 
 /*index starts*/
 
