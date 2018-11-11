@@ -88,12 +88,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -117,12 +117,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -146,12 +146,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -174,12 +174,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -203,12 +203,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -232,12 +232,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -278,12 +278,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -307,12 +307,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -336,12 +336,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -364,12 +364,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -393,12 +393,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -422,12 +422,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -470,12 +470,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -499,12 +499,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -528,12 +528,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -556,12 +556,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -585,12 +585,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0"> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -614,12 +614,12 @@ include 'linker_files/head.php';
 							<div class="w-100 pl-2">
 								<h6>Mobile phones</h6>
 								<h6 class="text-danger">$2490</h6>
-								<p class="text-danger"> 
+								<p class="text-danger mb-0 "> 
 									<strike class="text-muted">$5000
 									</strike>
 									<small class="text-muted"> 39%</small>
 								</p>
-								<div class="w-100 m_t pb-3">
+								<div class="w-100 mt-0 pb-3">
 									
 									<span class="fa fa-star checked"></span>
 									<span class="fa fa-star checked"></span>
@@ -644,7 +644,7 @@ include 'linker_files/head.php';
 
 					<!-- load more button -->
 					<div class="col-12 d-flex justify-content-center mb-2 mt-4">
-							<button class="load_more_button">
+							<button class="w-25 bg-transparent py-2 border border-info text-info btn rounded-0">
 								LOAD MORE
 							</button>				
 					</div>

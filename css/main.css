@@ -100,12 +100,14 @@ body{
 }
 
 /*this is used for Rating placing*/
-.m_t {
+/*.m_t {
     margin-top: -10px;
 }
+*/
+
 
 /*used for load more button in the index page*/
-.load_more_button{
+/*.load_more_button{
     padding: 10px 100px;
     color: #17B0CF;
     border:1px solid #17B0CF;
@@ -113,8 +115,9 @@ body{
 }
 .load_more_button:hover{
     cursor: pointer;
-}
+}*/
 /*index ends*/
+
 
 
 
