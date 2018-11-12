@@ -37,3 +37,8 @@ function cplay(check_id)
 
 	//event.parentNode.style.backgroundColor = "red";
 }
+
+// know which event is fired
+$("#tipo-imovel").on("click change", function(event){
+    console.log(event.type + " is fired");
+});
