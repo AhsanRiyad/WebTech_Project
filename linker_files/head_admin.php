@@ -57,7 +57,7 @@
         </div></a>
 
 
-        <a class="text-light" href="#">
+        <a class="text-light" href="admin_profile.php">
           <div class=" bg-secondary  py-2 text-center my-4">
 
             <i class="fas w_f fa-user"></i> Profile
@@ -92,4 +92,3 @@
 
 
               </div>
-              

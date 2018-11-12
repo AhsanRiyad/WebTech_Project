@@ -32,11 +32,11 @@ include 'linker_files/head_admin.php';
 						<div class=" d-block box2 bg-danger border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
 
 
-							<p class="d-flex align-items-center h5 my-0">22,000</p>
+							<p class="d-flex align-items-center h5 my-0 h">22,000</p>
 
 						</div>
 
-						<div class=" d-block box2 bg-danger d-flex align-items-center justify-content-center">
+						<div class="d-block box2 bg-danger d-flex align-items-center justify-content-center">
 
 
 							REVENUE

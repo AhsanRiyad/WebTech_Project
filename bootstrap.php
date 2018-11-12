@@ -4,9 +4,10 @@ include 'linker_files/head.php';
 <!-- body starts here -->
 
 
-<div class="bg-danger text-white yes" onclick="func(this);">
-	<p>hellow</p>
-</div>
+<div class="file btn btn-lg btn-primary">
+							Upload
+							<input type="file" name="file"/>
+						</div>
 
 
 

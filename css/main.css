@@ -144,47 +144,31 @@ height: 100vh !important;
     cursor: pointer;
 }
 
-/*used for rating color*/
-/*.checked {
-    color: orange;
+
+
+/*admin profile update page starts*/
+.small_button{
+
+color: white;
+float: right;
+background: red;
+padding:1px 5px;
 }
-*/
-/*this is used for Rating placing*/
-/*.m_t {
-    margin-top: -10px;
+.small_button:hover{
+
+background: #51A5D0;
+cursor: pointer;
 }
-*/
-
-
-/*used for load more button in the index page*/
-/*.load_more_button{
-    padding: 10px 100px;
-    color: #17B0CF;
-    border:1px solid #17B0CF;
-    background-color: transparent;
-}
-.load_more_button:hover{
-    cursor: pointer;
-}*/
-/*index ends*/
 
 
 
-
-/*login page starts*/
-
-
-/*login page ends*/
+/*admin profile update page ends*/
 
 
 
 
 
 
-
-/*tail page starts*/
-
-/*tail page ends*/
 
 
 
