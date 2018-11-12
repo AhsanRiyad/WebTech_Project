@@ -14,11 +14,11 @@ include 'linker_files/head_admin.php';
 <!-- fixed vertical -->
 <div class=" admin_navbar_veritcal bg-dark ">
 	<div class=" bg-light d-flex justify-content-center">
-		<img class=" py-1" src="img/logo_dashboard.png" alt="">
+		<a href="admin_home.php"><img class=" py-1" src="img/logo_dashboard.png" alt=""></a>
 
 	</div>
 
-	<a class="text-white" href="#">
+	<a class="text-white" href="admin_home.php">
 		<div class=" bg-info py-2 text-center my-4">
 
 			<i class="fas w_f fa-tachometer-alt"></i> Dashboard
@@ -58,6 +58,15 @@ include 'linker_files/head_admin.php';
 
 
 
+						<a class="text-white" href="login.php">
+						<div class="  bg-secondary py-2 text-center my-4">
+
+							<i class="fas fa-sign-out-alt"></i>Sign Out
+
+						</div></a>
+
+
+
 					</div>
 
 
@@ -77,8 +86,8 @@ include 'linker_files/head_admin.php';
 								<p class="h2 text-dark ">Admin Dashboard</p>
 								<nav aria-label="breadcrumb ">
 									<ol class="breadcrumb bg-light mt-0 pt-0 pl-0">
-										<li class="breadcrumb-item "><a class="text-danger" href="#">Home</a></li>
-										<li class="breadcrumb-item "><a class="text-muted" href="#">Dashboard</a></li>
+										<li class="breadcrumb-item "><a class="text-danger" href="admin_home.php">Home</a></li>
+										<li class="breadcrumb-item "><a class="text-muted" href="admin_home.php">Dashboard</a></li>
 									</ol>
 								</nav>
 
