@@ -27,4 +27,69 @@
   
 </head>
 <body>
-<!-- navigation bar and search bar starts -->
+  <!-- navigation bar and search bar starts -->
+  <!-- fixed horizontal -->
+  <div class="admin_navbar_horizontal bg-secondary justify-content-center d-flex align-items-center">
+    <p class="text-white h3">Good Morning, Riyad</p>
+  </div>
+
+
+
+  <!-- fixed vertical -->
+  <div class=" admin_navbar_veritcal bg-dark ">
+    <div class=" bg-light d-flex justify-content-center">
+      <a href="admin_home.php"><img class=" py-1" src="img/logo_dashboard.png" alt=""></a>
+
+    </div>
+
+    <a class="text-white" href="admin_home.php">
+      <div class=" bg-info py-2 text-center my-4">
+
+        <i class="fas w_f fa-tachometer-alt"></i> Dashboard
+
+      </div></a>
+
+      <a class="text-white" href="#">
+        <div class=" bg-secondary py-2 text-center my-4">
+
+          <i class="fas w_f fa-chart-line"></i> Statistics
+
+        </div></a>
+
+
+        <a class="text-light" href="#">
+          <div class=" bg-secondary  py-2 text-center my-4">
+
+            <i class="fas w_f fa-user"></i> Profile
+
+          </div></a>
+
+
+          <a class="text-white" href="#">
+            <div class="  bg-secondary py-2 text-center my-4">
+
+              <i class="fas w_f fa-envelope"></i> Message Request
+
+            </div></a>
+
+
+            <a class="text-white" href="#">
+              <div class="  bg-secondary py-2 text-center my-4">
+
+                <i class="fab fa-product-hunt"></i> New Product Request
+
+              </div></a>
+
+
+
+              <a class="text-white" href="login.php">
+                <div class="  bg-secondary py-2 text-center my-4">
+
+                  <i class="fas fa-sign-out-alt"></i>Sign Out
+
+                </div></a>
+
+
+
+              </div>
+              
