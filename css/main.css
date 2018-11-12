@@ -5,6 +5,9 @@
 
 }
 
+a:hover{
+    text-decoration: none;
+}
 
 /*main body styles*/
 body{

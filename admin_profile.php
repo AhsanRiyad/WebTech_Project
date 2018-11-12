@@ -70,9 +70,9 @@ include 'linker_files/head_admin.php';
 
 
 					<div class="col-10 mx-0 px-0 ">
-						<button class="btn btn-danger btn-block mb-3 mx-0 rounded-0">
-							Update Info
-						</button>
+						<a href="admin_profile_update.php"><button class="btn btn-danger btn-block mb-3 mx-0 rounded-0">
+								Update Info
+							</button></a>
 					</div>
 
 
