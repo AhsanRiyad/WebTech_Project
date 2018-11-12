@@ -71,9 +71,9 @@ include 'linker_files/head_admin.php';
 
 					<!-- admin breadcumb and title -->
 
-					<div class="container-fluid bg-light mt-0">
+					<div class="container-fluid bg-light mt-0 position-fixed">
 						<div class="row ">
-							<div class="col-12 admin_margin">
+							<div class="col-12 admin_margin ">
 								<p class="h2 text-dark ">Admin Dashboard</p>
 								<nav aria-label="breadcrumb ">
 									<ol class="breadcrumb bg-light mt-0 pt-0 pl-0">
