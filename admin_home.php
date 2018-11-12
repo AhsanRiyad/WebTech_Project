@@ -86,23 +86,23 @@ include 'linker_files/head_admin.php';
 
 								<!-- admin box started -->
 								<div class="row">
-									<div class="col-2 text-white "> 
+									<div class="col-2 text-white order-0"> 
 
-										<div class=" float-left box1  border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
+										<div class=" float-left box1  border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center bg-danger">
 
 											<i class="fas fa-sync h1"></i>
 
 										</div>
 
 										<div class="d-inline float-left">
-											<div class=" d-block box2 bg-info border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
+											<div class=" d-block box2 bg-danger border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
 
 
 												<p class="d-flex align-items-center h5 my-0">22,000</p>
 
 											</div>
 
-											<div class=" d-block box2 bg-info d-flex align-items-center justify-content-center">
+											<div class=" d-block box2 bg-danger d-flex align-items-center justify-content-center">
 
 
 												REVENUE
@@ -117,23 +117,23 @@ include 'linker_files/head_admin.php';
 									</div>
 
 
-									<div class="col-2 text-white "> 
+									<div class="col-2 text-white order-2"> 
 
-										<div class=" float-left box1 bg-info border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
+										<div class=" float-left box1 bg-success border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
 
 											<i class="fas fa-cart-plus h1"></i>
 
 										</div>
 
 										<div class="d-inline float-left">
-											<div class=" d-block box2 bg-info border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
+											<div class=" d-block box2 bg-success border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
 
 
 												<p class="d-flex align-items-center h5 my-0">22,000</p>
 
 											</div>
 
-											<div class=" d-block box2 bg-info d-flex align-items-center justify-content-center">
+											<div class=" d-block box2 bg-success d-flex align-items-center justify-content-center">
 
 
 												SALES
@@ -149,7 +149,7 @@ include 'linker_files/head_admin.php';
 
 
 
-									<div class="col-2 text-white "> 
+									<div class="col-2 text-white order-3"> 
 
 										<div class=" float-left box1 bg-info border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
 
@@ -181,23 +181,23 @@ include 'linker_files/head_admin.php';
 
 
 
-									<div class="col-2 text-white "> 
+									<div class="col-2 text-white order-1"> 
 
-										<div class=" float-left box1 bg-info border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
+										<div class=" float-left box1 bg-warning border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
 
 											<i class="fas fa-users h1"></i>
 
 										</div>
 
 										<div class="d-inline float-left">
-											<div class=" d-block box2 bg-info border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
+											<div class=" d-block box2 bg-warning border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
 
 
 												<p class="d-flex align-items-center h5 my-0">22,000</p>
 
 											</div>
 
-											<div class=" d-block box2 bg-info d-flex align-items-center justify-content-center">
+											<div class=" d-block box2 bg-warning d-flex align-items-center justify-content-center">
 
 
 												VISITS
