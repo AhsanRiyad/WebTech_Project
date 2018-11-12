@@ -21,3 +21,19 @@ function removeDisabledName(event){
 	document.getElementById("changeName").disabled = false;
 	document.getElementById("changeNameSpan").style.backgroundColor = "#51A5D0";
 }
+
+
+
+// javascript onclick id getting examples solved
+// very very important
+function cplay(check_id)
+{
+	var abc = check_id;
+	console.log(abc);
+	var kp = document.getElementById(abc);
+	var mb = kp.parentNode;
+	var td = mb.id;
+	console.log(td);
+
+	//event.parentNode.style.backgroundColor = "red";
+}
