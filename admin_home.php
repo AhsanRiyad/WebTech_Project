@@ -86,29 +86,31 @@ include 'linker_files/head_admin.php';
 
 								<!-- admin box started -->
 								<div class="row">
-									<div class="col-2 text-white "> 
+									<div class="col-2 text-white"> 
 
-										<div class=" float-left box1  border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
-
-											<i class="fas fa-sync h1"></i>
-
-										</div>
-
-										<div class="d-inline float-left">
-											<div class=" d-block box2 bg-info border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
-
-
-												<p class="d-flex align-items-center h5 my-0">22,000</p>
-
+										<div class="bg-danger ">
+											<div class=" float-left box1  border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
+											
+												<i class="fas fa-sync h1"></i>
+											
 											</div>
-
-											<div class=" d-block box2 bg-info d-flex align-items-center justify-content-center">
-
-
-												REVENUE
-
+											
+											<div class="d-inline float-left">
+												<div class=" d-block box2  border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
+											
+											
+													<p class="d-flex align-items-center h5 my-0">22,000</p>
+											
+												</div>
+											
+												<div class=" d-block box2  d-flex align-items-center justify-content-center">
+											
+											
+													REVENUE
+											
+												</div>
+											
 											</div>
-
 										</div>
 
 
@@ -119,21 +121,21 @@ include 'linker_files/head_admin.php';
 
 									<div class="col-2 text-white "> 
 
-										<div class=" float-left box1 bg-info border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
+										<div class=" float-left box1  border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
 
 											<i class="fas fa-cart-plus h1"></i>
 
 										</div>
 
 										<div class="d-inline float-left">
-											<div class=" d-block box2 bg-info border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
+											<div class=" d-block box2  border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
 
 
 												<p class="d-flex align-items-center h5 my-0">22,000</p>
 
 											</div>
 
-											<div class=" d-block box2 bg-info d-flex align-items-center justify-content-center">
+											<div class=" d-block box2  d-flex align-items-center justify-content-center">
 
 
 												SALES
@@ -151,21 +153,21 @@ include 'linker_files/head_admin.php';
 
 									<div class="col-2 text-white "> 
 
-										<div class=" float-left box1 bg-info border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
+										<div class=" float-left box1  border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
 
 											<i class="fas fa-chart-bar h1"></i>
 
 										</div>
 
 										<div class="d-inline float-left">
-											<div class=" d-block box2 bg-info border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
+											<div class=" d-block box2  border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
 
 
 												<p class="d-flex align-items-center h5 my-0">22,000</p>
 
 											</div>
 
-											<div class=" d-block box2 bg-info d-flex align-items-center justify-content-center">
+											<div class=" d-block box2  d-flex align-items-center justify-content-center">
 
 
 												PRODUCTS
@@ -183,21 +185,21 @@ include 'linker_files/head_admin.php';
 
 									<div class="col-2 text-white "> 
 
-										<div class=" float-left box1 bg-info border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
+										<div class=" float-left box1  border border-light border-top-0 border-bottom-0 border-left-0 border-right d-flex align-items-center justify-content-center">
 
 											<i class="fas fa-users h1"></i>
 
 										</div>
 
 										<div class="d-inline float-left">
-											<div class=" d-block box2 bg-info border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
+											<div class=" d-block box2  border border-light border-top-0 border-left-0 border-right-0 border-bottom d-flex  justify-content-center">
 
 
 												<p class="d-flex align-items-center h5 my-0">22,000</p>
 
 											</div>
 
-											<div class=" d-block box2 bg-info d-flex align-items-center justify-content-center">
+											<div class=" d-block box2  d-flex align-items-center justify-content-center">
 
 
 												VISITS
