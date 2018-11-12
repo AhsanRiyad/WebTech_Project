@@ -56,24 +56,31 @@ include 'linker_files/head_admin.php';
 					</div>
 
 					<div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0 pr-0"> 
-					<small class="text-danger ">Enter new email or Keep it same <span class="small_button">Change</span></small>
+					<small class="text-danger ">Enter new Name or Keep it same <span onclick="removeDisabledName(event)" id="changeNameSpan" class="small_button">Change</span></small>
 
-					<input class="d-block border-0 w-100 pb-1 mr-0 pl-2" placeholder="Type Your Email Here" disabled="" type="text" value="riyad298@gmail.com" >
+					<input id="changeName" class="d-block border-0 w-100 pb-1 mr-0 pl-2" placeholder="Enter your name there" disabled="" type="text" value="Riyad Ahsan" >
 
 					</div>
 
 					<div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0 pr-0"> 
-					<small class="text-danger ">Enter new Number or Keep it same <span class="small_button">Change</span></small>
+					<small  class="text-danger ">Enter new email or Keep it same <span onclick="removeDisabledEmail(event)" id="changeEmailSpan" class="small_button">Change</span></small>
 
-					<input class="d-block border-0 w-100 pb-1 mr-0 pl-2" placeholder="Type Your Email Here" disabled="" type="text" value="01919448787" >
+					<input id="changeEmail" class="d-block border-0 w-100 pb-1 mr-0 pl-2" placeholder="Type Your Email Here" disabled="" type="text" value="riyad298@gmail.com" >
+
+					</div>
+
+					<div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0 pr-0"> 
+					<small class="text-danger ppp">Enter new Number or Keep it same <span id="changeMobileSpan" class="small_button" onclick="removeDisabledMobile(event);">Change</span></small>
+
+					<input id="changeMobile" class="d-block border-0 w-100 pb-1 mr-0 pl-2" placeholder="Type Your Email Here" disabled="true" type="text" value="01919448787" >
 
 					</div>
 
 
 					<div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0 pr-0 mb-3"> 
-					<small class="text-danger ">Enter new DOB or Keep it same <span class="small_button">Change</span></small>
+					<small class="text-danger ">Enter new DOB or Keep it same <span onclick="removeDisabledDOB(event)" id="changeDOBSpan" class="small_button">Change</span></small>
 
-					<input class="d-block border-0 w-100 pb-1 pl-2 mr-0" placeholder="20-12-1996" disabled="" type="date" value="1996-12-20" >
+					<input id="changeDOB" class="d-block border-0 w-100 pb-1 pl-2 mr-0" placeholder="20-12-1996" disabled="" type="date" value="1996-12-20" >
 
 					</div>
 
