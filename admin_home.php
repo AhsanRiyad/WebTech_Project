@@ -211,31 +211,32 @@ include 'linker_files/head_admin.php';
 								<div class="row">
 									
 									<div class="col-4 py-5">
-										<table class="table">
-											<thead class="thead-dark">
-												<tr align="center">
-													<th class="h4" colspan="4" scope="col">Income</th>
-													
+										<table class="table table-hover">
+											<thead>
+												<tr>
+													<th scope="col">#</th>
+													<th scope="col">First</th>
+													<th scope="col">Last</th>
+													<th scope="col">Handle</th>
 												</tr>
 											</thead>
 											<tbody>
 												<tr>
-													<th scope="row">Electronics</th>
-													
-													<td colspan="4">Otto</td>
-													
+													<th scope="row">1</th>
+													<td>Mark</td>
+													<td>Otto</td>
+													<td>@mdo</td>
 												</tr>
 												<tr>
-													<th scope="row">Technology</th>
-													
-													<td colspan="4">Thornton</td>
-													
+													<th scope="row">2</th>
+													<td>Jacob</td>
+													<td>Thornton</td>
+													<td>@fat</td>
 												</tr>
 												<tr>
-													<th scope="row">Garments</th>
-												
-													<td colspan="4">the Bird</td>
-													
+													<th scope="row">3</th>
+													<td colspan="2">Larry the Bird</td>
+													<td>@twitter</td>
 												</tr>
 											</tbody>
 										</table>
