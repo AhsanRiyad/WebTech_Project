@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html>
 
 <head>
   <!-- bootstrap cdn -->
@@ -27,11 +27,4 @@
   
 </head>
 <body>
-
-
 <!-- navigation bar and search bar starts -->
-
-<!-- navigation bar and search bar ends -->
-
-
-  
