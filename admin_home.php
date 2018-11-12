@@ -6,13 +6,13 @@ include 'linker_files/head_admin.php';
 
 <!-- fixed horizontal -->
 <div class="admin_navbar_horizontal bg-secondary justify-content-center d-flex align-items-center">
-	<p class="text-white h3">Welcome admin</p>
+	<p class="text-white h3">Good Morning, Riyad</p>
 </div>
 
 
 
 <!-- fixed vertical -->
-	<div class=" admin_navbar_veritcal bg-dark ">
+<div class=" admin_navbar_veritcal bg-dark ">
 	<div class=" bg-light d-flex justify-content-center">
 		<img class=" py-1" src="img/logo_dashboard.png" alt="">
 
@@ -58,7 +58,7 @@ include 'linker_files/head_admin.php';
 
 
 
-				</div>
+					</div>
 
 
 
@@ -203,33 +203,60 @@ include 'linker_files/head_admin.php';
 												VISITS
 
 											</div>
-
 										</div>
+									</div>
+								</div>
 
 
+								<div class="row">
+									
+									<div class="col-4 py-5">
+										<table class="table">
+											<thead class="thead-dark">
+												<tr align="center">
+													<th class="h4" colspan="4" scope="col">Income</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row">Electronics</th>
+													
+													<td colspan="4">Otto</td>
+													
+												</tr>
+												<tr>
+													<th scope="row">Technology</th>
+													
+													<td colspan="4">Thornton</td>
+													
+												</tr>
+												<tr>
+													<th scope="row">Garments</th>
+												
+													<td colspan="4">the Bird</td>
+													
+												</tr>
+											</tbody>
+										</table>
 
 
 									</div>
 
 
-
 								</div>
+
+
+
+
 							</div>
-
-
-
-
-
-
-
-
-
-
 						</div>
-
 					</div>
 
 
+
+
+					<!-- admin progress table -->
 
 
 					<!-- body ends here -->
