@@ -45,7 +45,7 @@ include 'linker_files/head.php';
 		<div class="col">
 			<div class="container">
 				<div class="row">
-					<h3 class="pt-5">Categories</h3>
+					<a class="text-dark" href="#"><h3 class="pt-5">Categories</h3></a>
 					<div class="w-100"></div>
 					<div class="image_div text-info text-center text-info"
 					onclick="location.href='category_detail.php';"
@@ -79,7 +79,7 @@ include 'linker_files/head.php';
 		<div class="col">
 			<div class="container">
 				<div class="row pt-5">
-					<h3>Just In</h3>
+					<a class="text-dark" href="#"><h3>Just In</h3></a>
 					<div class="w-100"></div>
 					<div class="col-xl-2 col-6  mt-xl-0 mt-3" >
 						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
@@ -269,7 +269,7 @@ include 'linker_files/head.php';
 		<div class="col">
 			<div class="container">
 				<div class="row pt-5">
-					<h3>Best Seller</h3>
+					<a href="#" class="text-dark"><h3>Best Seller</h3></a>
 					<div class="w-100"></div>
 					<div class="col-xl-2 col-6  mt-xl-0 mt-3    ">
 						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
@@ -460,7 +460,7 @@ include 'linker_files/head.php';
 		<div class="col">
 			<div class="container">
 				<div class="row pt-5">
-					<h3>Recommended for you</h3>
+					<a class="text-dark" href=""><h3>Recommended for you</h3></a>
 					<div class="w-100"></div>
 					<div class="col-xl-2 col-6  mt-xl-0 mt-3    ">
 						<div onclick="location.href='product_details.php';" class="w_p bg-white ">
