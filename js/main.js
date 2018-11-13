@@ -1,27 +1,12 @@
-function removeDisabledMobile(event){
-	//console.log(document.getElementById("changeMobile").disabled)
-	document.getElementById("changeMobile").disabled = false;
-	document.getElementById("changeMobileSpan").style.backgroundColor = "#51A5D0";
-}
+// update profile page disable input and backgroundColor change js;
+// performed by capturing the object using onclick event
+function removeDisabled(obj){
 
-function removeDisabledEmail(event){
-	//console.log(document.getElementById("changeMobile").disabled)
-	document.getElementById("changeEmail").disabled = false;
-	document.getElementById("changeEmailSpan").style.backgroundColor = "#51A5D0";
-}
+	obj.parentNode.nextSibling.nextElementSibling.disabled = false;
+	obj.style.backgroundColor = "#51A5D0";
 
-function removeDisabledDOB(event){
-	//console.log(document.getElementById("changeMobile").disabled)
-	document.getElementById("changeDOB").disabled = false;
-	document.getElementById("changeDOBSpan").style.backgroundColor = "#51A5D0";
+	
 }
-
-function removeDisabledName(event){
-	//console.log(document.getElementById("changeMobile").disabled)
-	document.getElementById("changeName").disabled = false;
-	document.getElementById("changeNameSpan").style.backgroundColor = "#51A5D0";
-}
-
 
 
 
@@ -35,12 +20,12 @@ function removeDisabledName(event){
 // very very important
 function cplay(check_id)
 {
-	var abc = check_id;
-	console.log(abc);
-	var kp = document.getElementById(abc);
-	var mb = kp.parentNode;
-	var td = mb.id;
-	console.log(td);
+	
+	console.log(check_id.parentNode.nextSibling.nextSibling);
+	
+	// var is = mb.nextSibling;
+	// var idd = is.id;
+	// console.log(idd);
 
 	//event.parentNode.style.backgroundColor = "red";
 }

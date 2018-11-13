@@ -6,17 +6,24 @@ include 'linker_files/head.php';
 
 <!-- javascript onclick id getting examples solved
 very very important -->
-<div id="yes1"><br>
+<div id="parenti"><br>
 <br>
 
-	<span id="yes2" onclick="cplay(this.id);">
-	hellow
-	</span>
+	<small id="smalli"><span id="spani" onclick="cplay(this);">
+		hellow
+		</span></small>
+
+		
+		<input id="input1" type="text" placeholder="">
 
 
 <br> 
 <br>
-gelo</div>
+gelo
+
+</div>
+
+
 
 
 
