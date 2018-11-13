@@ -24,6 +24,13 @@ function removeDisabledName(event){
 
 
 
+
+
+
+
+
+
+
 // javascript onclick id getting examples solved
 // very very important
 function cplay(check_id)

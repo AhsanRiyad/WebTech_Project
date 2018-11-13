@@ -24,7 +24,8 @@ include 'linker_files/head_admin.php';
 			</nav>
 			
 			<div class="w-100"></div>
-
+			
+			<!-- update top part starts-->
 			
 			<div class="offset-3 col-4 admin_background px-0 py-1" style="box-shadow: 0 0 10px lightgrey;">
 
@@ -50,6 +51,10 @@ include 'linker_files/head_admin.php';
 
 				</div>
 
+			<!-- update top part ends-->
+
+			
+			<!-- update field part starts -->
 				<div class="row bg-white mt-4 justify-content-center mx-1">
 					<div class="w-100 bg-info">
 						<p class="h3 text-white pl-4 pt-2"> <i class="fas fa-info-circle mr-0"></i> About</p>
@@ -90,7 +95,8 @@ include 'linker_files/head_admin.php';
 							Update Info
 						</button>
 					</div>
-
+					
+					<!-- update field part ends -->
 
 				</div>
 
