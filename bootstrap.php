@@ -12,7 +12,7 @@ very very important -->
 	<small id="smalli"><span id="spani" onclick="cplay(this);">
 		hellow
 		</span></small>
-
+		<!-- js -->
 		
 		<input id="input1" type="text" placeholder="">
 
