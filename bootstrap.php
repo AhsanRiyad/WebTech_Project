@@ -10,7 +10,7 @@ very very important -->
 <br>
 
 	<small id="smalli"><span id="spani" onclick="cplay(this);">
-		hellow
+		
 		</span></small>
 		<!-- js -->
 		
