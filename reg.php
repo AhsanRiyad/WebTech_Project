@@ -14,7 +14,7 @@ function first_name_validation() {
 	if (isset($_POST['submit'])) {
 		$first_name = $_POST['first_name'];
 		if ($first_name == "") {
-			return 'can not be empty';
+			return 'name can not be empty';
 			echo '<br>';
 		} else {
 
@@ -57,7 +57,7 @@ function last_name_validation() {
 	if (isset($_POST['submit'])) {
 		$last_name = $_POST['last_name'];
 		if ($last_name == "") {
-			return 'can not be empty';
+			return 'name can not be empty';
 			echo '<br>';
 		} else {
 
@@ -170,7 +170,7 @@ function password_validation() {
 function phone_validation() {
 	if (isset($_POST['submit'])) {
 		if ($_POST['phone'] == "") {
-			return 'can not be empty';
+			return 'no. can not be empty';
 			echo '<br>';
 		} else {
 			$phone_array = str_split($_POST['phone'], 1);
@@ -299,12 +299,15 @@ function toc_validation(){
 								<!-- month input -->
 								<div class="row">
 									<div class="col-3 pr-0">
-										<small>Birthday*
-
+										<small>
+												
 											<?php
 											$st = date_validation();
 											if ($st != "") {
 												echo "<span style='color: red;'>" . $st . "</span>";
+											}
+											else{
+												echo "Birthday*";
 											}
 											?>
 
@@ -549,14 +552,17 @@ function toc_validation(){
 
 								<!-- gender input -->
 								<div class="col-3 pl-1">
-									<small>Gender*</small>
-									<br>
-									<?php
+									<small><?php
 									$st2 = gender_validation();
 									if ($st2 != "") {
 										echo "<span style='color: red'>" . $st2 . "</span>" . '<br>';
 									}
-									?>
+									else{
+										echo 'Gender*';
+									}
+									?></small>
+									
+									
 
 									<div class="input-group">
 										<select name="gender" class="custom-select rounded-0 pl-1 pl-lg-2 " id="inputGroupSelect01">
@@ -665,7 +671,7 @@ function toc_validation(){
 
 								$st2 = toc_validation();
 								if ($st2 != "") {
-									echo "<span style='color: red'>" . $st2 . "</span>" . '<br>';
+									echo "<span style='color: red; margin-left: -23px; '>" . $st2 . "</span>" . '<br>';
 								}
 
 								?>
