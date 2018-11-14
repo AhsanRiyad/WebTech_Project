@@ -10,8 +10,9 @@ include 'linker_files/head.php';
 		<div class="row justify-content-xl-center admin_background">
 			<div class="col-12 col-xl-6 ">
 				<div class="container">
-					<div class="row py-4">
+					<div class="row pt-4 pb-1">
 						<p class="text-dark h4">Create Your Umart Account</p>
+						<span class="ml-auto mt-auto pt-3"><small >Alredy member? <a href="login.php">Login</a> here</small></span>
 					</div>
 
 					<div class="row justify-content-xl-center bg-white py-5 mb-5">
@@ -27,7 +28,7 @@ include 'linker_files/head.php';
 								<input type="password" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Password">
 							</div>
 
-							<div class="form-group">
+							<div class="form-group mb-4">
 								<label for="exampleInputPassword1"><small>Re-enter password*</small></label>
 								<input type="password" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Password">
 							</div>
@@ -140,21 +141,33 @@ include 'linker_files/head.php';
 						<div class="col-12 col-xl-5 ">
 
 							<div class="form-group">
-								<label for="exampleInputEmail1"><small>Full name*</small></label>
-								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter full name">
+								<label for="exampleInputEmail1"><small>First Name*</small></label>
+								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter first name">
+							</div>
+
+
+							<div class="form-group">
+								<label for="exampleInputEmail1"><small>Last Name*</small></label>
+								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Last name">
 							</div>
 							
-							<div class="form-group">
+							<div class="form-group mb-xl-3">
 								<label for="exampleInputEmail1"><small>Mobile Number*</small></label>
 								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter mobile number">
 							</div>
 
+							<div class="custom-control custom-checkbox my-1 mr-sm-2 my-0 py-0">
+    						<input type="checkbox" class="custom-control-input" id="customControlInline">
+    						<label class="custom-control-label" for="customControlInline"> <small>I agree with all the Terms and Conditions</small></label>
+  							</div>
 
-							<button type="submit" name="submit" value="submit" class="btn btn-success rounded-0 w-100 py-2 mt-3 mt-xl-2">Register</button>
+							<button type="submit" name="submit" value="submit" class="btn btn-success rounded-0 w-100 py-2 mt-3 mt-xl-1">Register</button>
 
-							<p class="text-danger h5 mt-4"><i>Already have an account?</i></p>
 
-							<a href="reg.php"><button type="button" class="btn btn-primary rounded-0 w-100 py-2">Register Here</button></a>
+							
+							<!-- <p class="text-danger h5 mt-4"><i>Already have an account?</i></p>
+
+							<a href="reg.php"><button type="button" class="btn btn-primary rounded-0 w-100 py-2">Register Here</button></a> -->
 
 						</div>
 						
