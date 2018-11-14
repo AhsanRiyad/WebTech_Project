@@ -1,4 +1,10 @@
 <?php 
+$link_status = "admin_home";
+
+?>
+
+
+<?php 
 include 'linker_files/head_admin.php';
 ?>
 <!-- body starts here -->

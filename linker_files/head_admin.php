@@ -44,7 +44,19 @@
     </div>
 
     <a class="text-white" href="admin_home.php">
-      <div class=" bg-info py-2 text-center my-4">
+      <div class=" 
+        <?php 
+
+          if($link_status=='admin_home')
+          {
+            echo 'bg-info';
+          }
+          else{
+            echo 'bg-secondary';
+          }
+          ?> 
+        
+        py-2 text-center my-4">
 
         <i class="fas w_f fa-tachometer-alt"></i> Dashboard
 
@@ -59,9 +71,28 @@
 
 
         <a class="text-light" href="admin_profile.php">
-          <div class=" bg-secondary  py-2 text-center my-4">
+          <div class="  
+          <?php 
 
-            <i class="fas w_f fa-user"></i> Profile
+          if($link_status=='admin_profile')
+          {
+            echo 'bg-info';
+          }
+          else{
+            echo 'bg-secondary';
+          }
+          ?> 
+          py-2 text-center my-4">
+
+          <i class="fas w_f fa-user"></i> Profile
+
+        </div></a>
+
+
+        <a class="text-white" href="#">
+          <div class="  bg-secondary py-2 text-center my-4">
+
+            <i class="fas w_f fa-envelope"></i> Message Request
 
           </div></a>
 
@@ -69,27 +100,19 @@
           <a class="text-white" href="#">
             <div class="  bg-secondary py-2 text-center my-4">
 
-              <i class="fas w_f fa-envelope"></i> Message Request
+              <i class="fab fa-product-hunt"></i> New Product Request
 
             </div></a>
 
 
-            <a class="text-white" href="#">
+
+            <a class="text-white" href="login.php">
               <div class="  bg-secondary py-2 text-center my-4">
 
-                <i class="fab fa-product-hunt"></i> New Product Request
+                <i class="fas fa-sign-out-alt"></i>Sign Out
 
               </div></a>
 
 
 
-              <a class="text-white" href="login.php">
-                <div class="  bg-secondary py-2 text-center my-4">
-
-                  <i class="fas fa-sign-out-alt"></i>Sign Out
-
-                </div></a>
-
-
-
-              </div>
+            </div>
