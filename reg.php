@@ -1,11 +1,111 @@
 <?php 
 include 'linker_files/head.php';
 ?>
+
+
+<?php
+
+$first_name = "";
+$last_name = "";
+
+//    first name validation
+function first_name_validation() {
+	if (isset($_POST['submit'])) {
+		$first_name = $_POST['first_name'];
+		if ($first_name == "") {
+			return 'can not be empty';
+			echo '<br>';
+		} else {
+
+
+
+
+			if (strlen($first_name) < 2) {
+				return 'is too short';
+				echo '<br>';
+			} else {
+				if (is_numeric(substr($first_name, 0, 1)) || substr($first_name, 0, 1) == '.' || substr($first_name, 0, 1) == '-') {
+					return 'First character can not be numeric or character';
+					echo '<br>';
+				} else {
+
+
+
+					$first_name_array = str_split($first_name, 1);
+
+					foreach ($first_name_array as $value) {
+
+						if ($value == 'a' || $value == 'b' || $value == 'c' || $value == 'd' || $value == 'e' || $value == 'f' || $value == 'g' || $value == 'h' || $value == 'i' || $value == 'j' || $value == 'k' || $value == 'l' || $value == 'm' || $value == 'n' || $value == 'o' || $value == 'p' || $value == 'q' || $value == 'r' || $value == 's' || $value == 't' || $value == 'u' || $value == 'v' || $value == 'w' || $value == 'x' || $value == 'y' || $value == 'z' || $value == 'A' || $value == 'B' || $value == 'C' || $value == 'D' || $value == 'E' || $value == 'F' || $value == 'G' || $value == 'H' || $value == 'I' || $value == 'J' || $value == 'K' || $value == 'L' || $value == 'M' || $value == 'N' || $value == 'O' || $value == 'P' || $value == 'Q' || $value == 'R' || $value == 'S' || $value == 'T' || $value == 'U' || $value == 'V' || $value == 'W' || $value == 'X' || $value == 'Y' || $value == 'Z' || $value == '.' || $value == '-') {
+
+						} else {
+							return 'Invalid character';
+							echo '<br>';
+							break;
+						}
+					}
+				}
+			}
+		}
+	} else {
+		return "";
+	}
+}
+
+
+
+//    last name validation
+function last_name_validation() {
+    if (isset($_POST['submit'])) {
+        $last_name = $_POST['last_name'];
+        if ($last_name == "") {
+            return 'can not be empty';
+            echo '<br>';
+        } else {
+
+            if (strlen($last_name) < 2) {
+                return 'is too short';
+                echo '<br>';
+            } else {
+                if (is_numeric(substr($last_name, 0, 1)) || substr($last_name, 0, 1) == '.' || substr($last_name, 0, 1) == '-') {
+                    return 'Last character can not be numeric or character';
+                    echo '<br>';
+                } else {
+
+                    $last_name_array = str_split($last_name, 1);
+
+                    foreach ($last_name_array as $value) {
+
+                        if ($value == 'a' || $value == 'b' || $value == 'c' || $value == 'd' || $value == 'e' || $value == 'f' || $value == 'g' || $value == 'h' || $value == 'i' || $value == 'j' || $value == 'k' || $value == 'l' || $value == 'm' || $value == 'n' || $value == 'o' || $value == 'p' || $value == 'q' || $value == 'r' || $value == 's' || $value == 't' || $value == 'u' || $value == 'v' || $value == 'w' || $value == 'x' || $value == 'y' || $value == 'z' || $value == 'A' || $value == 'B' || $value == 'C' || $value == 'D' || $value == 'E' || $value == 'F' || $value == 'G' || $value == 'H' || $value == 'I' || $value == 'J' || $value == 'K' || $value == 'L' || $value == 'M' || $value == 'N' || $value == 'O' || $value == 'P' || $value == 'Q' || $value == 'R' || $value == 'S' || $value == 'T' || $value == 'U' || $value == 'V' || $value == 'W' || $value == 'X' || $value == 'Y' || $value == 'Z' || $value == '.' || $value == '-') {
+                            
+                        } else {
+                            return 'Invalid character';
+                            echo '<br>';
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    } else {
+        return "";
+    }
+}
+
+
+
+
+
+
+
+?>
+
+
+
 <!-- body starts here -->
 
 
 <!-- registration page starts now -->
-<form action="reg_success.php">
+<form action="#" method="post">
 	<div class="container-fluid">
 		<div class="row justify-content-xl-center admin_background">
 			<div class="col-12 col-xl-6 ">
@@ -16,23 +116,26 @@ include 'linker_files/head.php';
 					</div>
 
 					<div class="row justify-content-xl-center bg-white py-5 mb-5">
-
+						
+						<!-- email input -->
 						<div class="col-12 col-xl-6 ">
 							<div class="form-group">
 								<label for="exampleInputEmail1"><small>Email address*</small></label>
 								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 							</div>
-
+						<!-- password input -->
 							<div class="form-group">
 								<label for="exampleInputPassword1"><small>Password*</small></label>
 								<input type="password" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Password">
 							</div>
-
+							
+						<!-- re-enter password input -->
 							<div class="form-group mb-4">
 								<label for="exampleInputPassword1"><small>Re-enter password*</small></label>
 								<input type="password" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Password">
 							</div>
 							
+							<!-- month input -->
 							<div class="row">
 								<div class="col-3 pr-0">
 									<small>Birthday*</small>
@@ -55,7 +158,8 @@ include 'linker_files/head.php';
 									</div>
 								</div>
 
-							<div class="col-3 px-0">
+							<!-- day input -->
+								<div class="col-3 px-0">
 									<small>&nbsp</small>
 									<div class="input-group">
 										<select class="custom-select rounded-0 " id="inputGroupSelect01">
@@ -99,7 +203,7 @@ include 'linker_files/head.php';
 									</div>
 								</div>
 
-								
+								<!-- yeas input -->
 								<div class="col-3 pl-0 pr-2">
 									<small>&nbsp</small>
 									<div class="input-group">
@@ -121,6 +225,7 @@ include 'linker_files/head.php';
 									</div>
 								</div>
 
+								<!-- gender input -->
 								<div class="col-3 pl-1">
 									<small>Gender*</small>
 									<div class="input-group">
@@ -138,46 +243,63 @@ include 'linker_files/head.php';
 
 						</div>
 
+						<!-- first name input -->
 						<div class="col-12 col-xl-5 ">
 
 							<div class="form-group">
-								<label for="exampleInputEmail1"><small>First Name*</small></label>
-								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter first name">
+								<label for="exampleInputEmail1"><small>First Name*</small>
+									<br>
+									<?php
+									$st1 = first_name_validation();
+									if ($st1 != "") {
+										echo "<span style='color: red;'>" . $st1 . "</span>" . '<br>';
+									}
+									?>
+									
+								</label>
+								<input name="first_name"  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter first name" value="<?php
+								if (isset($_POST['first_name'])) {
+									echo $_POST['first_name'];
+								}
+								?>">
 							</div>
 
-
+							<!-- last name input -->
 							<div class="form-group">
 								<label for="exampleInputEmail1"><small>Last Name*</small></label>
 								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Last name">
 							</div>
 							
+							<!-- mobile number input -->
 							<div class="form-group mb-xl-3">
 								<label for="exampleInputEmail1"><small>Mobile Number*</small></label>
 								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter mobile number">
 							</div>
 
+							<!-- toc terms and condition input -->
 							<div class="custom-control custom-checkbox my-1 mr-sm-2 my-0 py-0">
-    						<input type="checkbox" class="custom-control-input" id="customControlInline">
-    						<label class="custom-control-label" for="customControlInline"> <small>I agree with all the Terms and Conditions</small></label>
-  							</div>
-
+								<input type="checkbox" class="custom-control-input" id="customControlInline">
+								<label class="custom-control-label" for="customControlInline"> <small>I agree with all the Terms and Conditions</small></label>
+							</div>
+							
+							<!-- submit button -->
 							<button type="submit" name="submit" value="submit" class="btn btn-success rounded-0 w-100 py-2 mt-3 mt-xl-1">Register</button>
 
 
 							
 							<!-- <p class="text-danger h5 mt-4"><i>Already have an account?</i></p>
 
-							<a href="reg.php"><button type="button" class="btn btn-primary rounded-0 w-100 py-2">Register Here</button></a> -->
+								<a href="reg.php"><button type="button" class="btn btn-primary rounded-0 w-100 py-2">Register Here</button></a> -->
+
+							</div>
+
 
 						</div>
-						
-
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</form>
+	</form>
 
 
 
@@ -188,10 +310,10 @@ include 'linker_files/head.php';
 
 
 
-<!-- body ends here -->
-<?php 
-include 'linker_files/tail.php';
-?>
+	<!-- body ends here -->
+	<?php 
+	include 'linker_files/tail.php';
+	?>
 
 
 
