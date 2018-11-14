@@ -27,7 +27,7 @@ include 'linker_files/head_admin.php';
 			
 			<!-- update top part starts-->
 			
-			<div class="offset-3 col-4 admin_background px-0 py-1" style="box-shadow: 0 0 10px lightgrey; position: absolute; top:70px;">
+			<div class="offset-3 col-4 admin_background px-0 py-1" style="box-shadow: 0 0 10px lightgrey;">
 
 				
 				<div class="row bg-white mx-1">
