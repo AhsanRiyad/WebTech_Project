@@ -137,8 +137,8 @@ function email_validation() {
 function gender_validation() {
 	if (isset($_POST['submit'])) {
 
-		if (!isset($_POST['gender'])) {
-			return 'One option must be selected';
+		if (!isset($_POST['gender']) || $_POST['gender'] == 'Gender' ) {
+			return 'Select one*';
 			echo '<br>';
 		} else {
 			$GLOBALS['gender'] = $_POST['gender'];
@@ -232,13 +232,13 @@ function date_validation() {
 						<div class="col-12 col-xl-6 ">
 							<div class="form-group">
 								<label for="exampleInputEmail1"><small>Email address*</small>
-								<br>
-								<?php
-								$st2 = email_validation();
-								if ($st2 != "") {
-									echo "<span style='color: red'>" . $st2 . "</span>" . '<br>';
-								}
-								?>
+									<br>
+									<?php
+									$st2 = email_validation();
+									if ($st2 != "") {
+										echo "<span style='color: red'>" . $st2 . "</span>" . '<br>';
+									}
+									?>
 									
 								</label>
 								
@@ -371,12 +371,44 @@ function date_validation() {
 								<!-- gender input -->
 								<div class="col-3 pl-1">
 									<small>Gender*</small>
+									<br>
+									<?php
+									$st2 = gender_validation();
+									if ($st2 != "") {
+										echo "<span style='color: red'>" . $st2 . "</span>" . '<br>';
+									}
+									?>
+
 									<div class="input-group">
-										<select class="custom-select rounded-0 pl-1 pl-lg-2 " id="inputGroupSelect01">
-											<option selected>Gender</option>
-											<option value="1">Male</option>
-											<option value="2">Female</option>
-											<option value="3">Other</option>
+										<select name="gender" class="custom-select rounded-0 pl-1 pl-lg-2 " id="inputGroupSelect01">
+											<option <?php
+											if ($gender == 'Gender') {
+												echo 'selected';
+											}
+											?> value="Gender">Gender</option>
+											<option <?php
+											if ($gender == 'Male') {
+												echo 'selected';
+											}
+											?> value="Male">Male</option>
+											<option 
+											
+											<?php
+											if ($gender == 'Female') {
+												echo 'selected';
+											}
+											?>
+											
+											 value="Female">Female</option>
+											<option 
+											
+											<?php
+											if ($gender == 'Other') {
+												echo 'selected';
+											}
+											?>
+											
+											 value="Other">Other</option>
 										</select>
 									</div>
 								</div>
