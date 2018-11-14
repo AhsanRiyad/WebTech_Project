@@ -195,13 +195,13 @@ function phone_validation() {
 function date_validation() {
 	if (isset($_POST['submit'])) {
 		if ($_POST['day'] == 'Day') {
-			return 'you must select a day';
+			return 'select day*';
 			echo '<br>';
 		} elseif ($_POST['month'] == 'Month') {
-			return 'you must select a month';
+			return 'select month*';
 			echo '<br>';
 		} elseif ($_POST['year'] == 'Year') {
-			return 'you must select a year';
+			return 'select year*';
 			echo '<br>';
 		}
 	} else {
@@ -281,22 +281,105 @@ function date_validation() {
 							<!-- month input -->
 							<div class="row">
 								<div class="col-3 pr-0">
-									<small>Birthday*</small>
+									<small>Birthday*
+									
+									<?php
+									$st = date_validation();
+									if ($st != "") {
+										echo "<span style='color: red;'>" . $st . "</span>";
+									}
+									?>
+									
+									</small>
+									
 									<div class="input-group">
-										<select class="custom-select rounded-0" id="inputGroupSelect01">
-											<option selected>Month</option>
-											<option value="1">Jan</option>
-											<option value="2">Feb</option>
-											<option value="3">Mar</option>
-											<option value="4">Apr</option>
-											<option value="5">May</option>
-											<option value="6">Jun</option>
-											<option value="7">Jul</option>
-											<option value="8">Aug</option>
-											<option value="9">Sep</option>
-											<option value="10">Oct</option>
-											<option value="11">Nov</option>
-											<option value="12">Dec</option>
+										<select name="month" class="custom-select rounded-0" id="inputGroupSelect01">
+
+											<option>Month</option>
+											<option <?php
+                                if (isset($_POST['month'])) {
+                                    if ($_POST['month'] == 'Jan') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?>>Jan</option>
+                                <option <?php
+                                if (isset($_POST['month'])) {
+                                    if ($_POST['month'] == 'Feb') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >Feb</option>
+                                <option <?php
+                                if (isset($_POST['month'])) {
+                                    if ($_POST['month'] == 'Mar') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >Mar</option>
+                                <option <?php
+                                if (isset($_POST['month'])) {
+                                    if ($_POST['month'] == 'Apr') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >Apr</option>
+                                <option <?php
+                                if (isset($_POST['month'])) {
+                                    if ($_POST['month'] == 'May') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >May</option>
+                                <option <?php
+                                if (isset($_POST['month'])) {
+                                    if ($_POST['month'] == 'Jun') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >Jun</option>
+                                <option <?php
+                                if (isset($_POST['month'])) {
+                                    if ($_POST['month'] == 'Jul') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >Jul</option>
+                                <option <?php
+                                if (isset($_POST['month'])) {
+                                    if ($_POST['month'] == 'Aug') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >Aug</option>
+                                <option <?php
+                                if (isset($_POST['month'])) {
+                                    if ($_POST['month'] == 'Sep') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >Sep</option>
+                                <option <?php
+                                if (isset($_POST['month'])) {
+                                    if ($_POST['month'] == 'Oct') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >Oct</option>
+                                <option <?php
+                                if (isset($_POST['month'])) {
+                                    if ($_POST['month'] == 'Nov') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >Nov</option>
+                                <option <?php
+                                if (isset($_POST['month'])) {
+                                    if ($_POST['month'] == 'Dec') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >Dec</option>
 										</select>
 									</div>
 								</div>
@@ -304,43 +387,84 @@ function date_validation() {
 								<!-- day input -->
 								<div class="col-3 px-0">
 									<small>&nbsp</small>
+									<br>
+									
 									<div class="input-group">
-										<select class="custom-select rounded-0 " id="inputGroupSelect01">
-											<option selected>Day</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
-											<option value="6">6</option>
-											<option value="7">7</option>
-											<option value="8">8</option>
-											<option value="9">9</option>
-											<option value="10">10</option>
-											<option value="11">11</option>
-											<option value="12">12</option>
-											<option value="12">12</option>
+										<select name="day" class="custom-select rounded-0 " id="inputGroupSelect01">
+											<option>Day</option>
+                                <option <?php
+                                if (isset($_POST['day'])) {
+                                    if ($_POST['day'] == '1') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?>>1</option>
+                                <option <?php
+                                if (isset($_POST['day'])) {
+                                    if ($_POST['day'] == '2') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >2</option>
+                                <option <?php
+                                if (isset($_POST['day'])) {
+                                    if ($_POST['day'] == '3') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >3</option>
+                                <option <?php
+                                if (isset($_POST['day'])) {
+                                    if ($_POST['day'] == '4') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >4</option>
+                                <option <?php
+                                if (isset($_POST['day'])) {
+                                    if ($_POST['day'] == '5') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >5</option>
+                                <option <?php
+                                if (isset($_POST['day'])) {
+                                    if ($_POST['day'] == '6') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >6</option>
+                                <option <?php
+                                if (isset($_POST['day'])) {
+                                    if ($_POST['day'] == '7') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >7</option>
+                                <option <?php
+                                if (isset($_POST['day'])) {
+                                    if ($_POST['day'] == '8') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >8</option>
+                                <option <?php
+                                if (isset($_POST['day'])) {
+                                    if ($_POST['day'] == '9') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?>>9</option>
+                                <option <?php
+                                if (isset($_POST['day'])) {
+                                    if ($_POST['day'] == '10') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?>>10</option>
+                            </select>
 
-											<option value="13">13</option>
-											<option value="14">14</option>
-											<option value="15">15</option>
-											<option value="16">16</option>
-											<option value="17">17</option>
-											<option value="18">18</option>
-											<option value="19">19</option>
-											<option value="20">20</option>
-											<option value="21">21</option>
-											<option value="22">22</option>
-											<option value="23">23</option>
-											<option value="24">24</option>
-											<option value="25">25</option>
-
-											<option value="26">26</option>
-											<option value="27">27</option>
-											<option value="28">28</option>
-											<option value="29">29</option>
-											<option value="30">30</option>
-											<option value="31">31</option>
+                           
 
 										</select>
 									</div>
@@ -350,20 +474,57 @@ function date_validation() {
 								<div class="col-3 pl-0 pr-2">
 									<small>&nbsp</small>
 									<div class="input-group">
-										<select class="custom-select rounded-0" id="inputGroupSelect01">
-											<option selected>Year</option>
-											<option value="1">2000</option>
-											<option value="2">1999</option>
-											<option value="3">1998</option>
-											<option value="4">1997</option>
-											<option value="5">1996</option>
-											<option value="6">1995</option>
-											<option value="7">1994</option>
-											<option value="8">1993</option>
-											<option value="9">1992</option>
-											<option value="10">1991</option>
-											<option value="11">1990</option>
-											<option value="12">1989</option>
+										<select name="year" class="custom-select rounded-0" id="inputGroupSelect01">
+											<option>Year</option>
+                                <option <?php
+                                if (isset($_POST['year'])) {
+                                    if ($_POST['year'] == '2008') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >2008</option>
+                                <option <?php
+                                if (isset($_POST['year'])) {
+                                    if ($_POST['year'] == '2007') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >2007</option>
+                                <option <?php
+                                if (isset($_POST['year'])) {
+                                    if ($_POST['year'] == '2006') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >2006</option>
+                                <option <?php
+                                if (isset($_POST['year'])) {
+                                    if ($_POST['year'] == '2005') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >2005</option>
+                                <option <?php
+                                if (isset($_POST['year'])) {
+                                    if ($_POST['year'] == '2004') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >2004</option>
+                                <option <?php
+                                if (isset($_POST['year'])) {
+                                    if ($_POST['year'] == '2003') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >2003</option>
+                                <option <?php
+                                if (isset($_POST['year'])) {
+                                    if ($_POST['year'] == '2002') {
+                                        echo 'selected';
+                                    }
+                                }
+                                ?> >2002</option>
 										</select>
 									</div>
 								</div>
@@ -399,7 +560,7 @@ function date_validation() {
 											}
 											?>
 											
-											 value="Female">Female</option>
+											value="Female">Female</option>
 											<option 
 											
 											<?php
@@ -408,7 +569,7 @@ function date_validation() {
 											}
 											?>
 											
-											 value="Other">Other</option>
+											value="Other">Other</option>
 										</select>
 									</div>
 								</div>
