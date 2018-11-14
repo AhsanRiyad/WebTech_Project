@@ -5,8 +5,8 @@ include 'linker_files/head.php';
 
 <?php
 
-$first_name = "";
-$last_name = "";
+$GLOBALS['first_name'] = "";
+$GLOBALS['last_name'] = "";
 
 //    first name validation
 function first_name_validation() {
@@ -55,40 +55,40 @@ function first_name_validation() {
 
 //    last name validation
 function last_name_validation() {
-    if (isset($_POST['submit'])) {
-        $last_name = $_POST['last_name'];
-        if ($last_name == "") {
-            return 'can not be empty';
-            echo '<br>';
-        } else {
+	if (isset($_POST['submit'])) {
+		$last_name = $_POST['last_name'];
+		if ($last_name == "") {
+			return 'can not be empty';
+			echo '<br>';
+		} else {
 
-            if (strlen($last_name) < 2) {
-                return 'is too short';
-                echo '<br>';
-            } else {
-                if (is_numeric(substr($last_name, 0, 1)) || substr($last_name, 0, 1) == '.' || substr($last_name, 0, 1) == '-') {
-                    return 'Last character can not be numeric or character';
-                    echo '<br>';
-                } else {
+			if (strlen($last_name) < 2) {
+				return 'is too short';
+				echo '<br>';
+			} else {
+				if (is_numeric(substr($last_name, 0, 1)) || substr($last_name, 0, 1) == '.' || substr($last_name, 0, 1) == '-') {
+					return 'Last character can not be numeric or character';
+					echo '<br>';
+				} else {
 
-                    $last_name_array = str_split($last_name, 1);
+					$last_name_array = str_split($last_name, 1);
 
-                    foreach ($last_name_array as $value) {
+					foreach ($last_name_array as $value) {
 
-                        if ($value == 'a' || $value == 'b' || $value == 'c' || $value == 'd' || $value == 'e' || $value == 'f' || $value == 'g' || $value == 'h' || $value == 'i' || $value == 'j' || $value == 'k' || $value == 'l' || $value == 'm' || $value == 'n' || $value == 'o' || $value == 'p' || $value == 'q' || $value == 'r' || $value == 's' || $value == 't' || $value == 'u' || $value == 'v' || $value == 'w' || $value == 'x' || $value == 'y' || $value == 'z' || $value == 'A' || $value == 'B' || $value == 'C' || $value == 'D' || $value == 'E' || $value == 'F' || $value == 'G' || $value == 'H' || $value == 'I' || $value == 'J' || $value == 'K' || $value == 'L' || $value == 'M' || $value == 'N' || $value == 'O' || $value == 'P' || $value == 'Q' || $value == 'R' || $value == 'S' || $value == 'T' || $value == 'U' || $value == 'V' || $value == 'W' || $value == 'X' || $value == 'Y' || $value == 'Z' || $value == '.' || $value == '-') {
-                            
-                        } else {
-                            return 'Invalid character';
-                            echo '<br>';
-                            break;
-                        }
-                    }
-                }
-            }
-        }
-    } else {
-        return "";
-    }
+						if ($value == 'a' || $value == 'b' || $value == 'c' || $value == 'd' || $value == 'e' || $value == 'f' || $value == 'g' || $value == 'h' || $value == 'i' || $value == 'j' || $value == 'k' || $value == 'l' || $value == 'm' || $value == 'n' || $value == 'o' || $value == 'p' || $value == 'q' || $value == 'r' || $value == 's' || $value == 't' || $value == 'u' || $value == 'v' || $value == 'w' || $value == 'x' || $value == 'y' || $value == 'z' || $value == 'A' || $value == 'B' || $value == 'C' || $value == 'D' || $value == 'E' || $value == 'F' || $value == 'G' || $value == 'H' || $value == 'I' || $value == 'J' || $value == 'K' || $value == 'L' || $value == 'M' || $value == 'N' || $value == 'O' || $value == 'P' || $value == 'Q' || $value == 'R' || $value == 'S' || $value == 'T' || $value == 'U' || $value == 'V' || $value == 'W' || $value == 'X' || $value == 'Y' || $value == 'Z' || $value == '.' || $value == '-') {
+
+						} else {
+							return 'Invalid character';
+							echo '<br>';
+							break;
+						}
+					}
+				}
+			}
+		}
+	} else {
+		return "";
+	}
 }
 
 
@@ -123,13 +123,13 @@ function last_name_validation() {
 								<label for="exampleInputEmail1"><small>Email address*</small></label>
 								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 							</div>
-						<!-- password input -->
+							<!-- password input -->
 							<div class="form-group">
 								<label for="exampleInputPassword1"><small>Password*</small></label>
 								<input type="password" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Password">
 							</div>
 							
-						<!-- re-enter password input -->
+							<!-- re-enter password input -->
 							<div class="form-group mb-4">
 								<label for="exampleInputPassword1"><small>Re-enter password*</small></label>
 								<input type="password" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Password">
@@ -158,7 +158,7 @@ function last_name_validation() {
 									</div>
 								</div>
 
-							<!-- day input -->
+								<!-- day input -->
 								<div class="col-3 px-0">
 									<small>&nbsp</small>
 									<div class="input-group">
@@ -266,8 +266,21 @@ function last_name_validation() {
 
 							<!-- last name input -->
 							<div class="form-group">
-								<label for="exampleInputEmail1"><small>Last Name*</small></label>
-								<input  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Last name">
+								<label for="exampleInputEmail1"><small>Last Name*</small>
+									<br>
+									<?php
+									$st1 = last_name_validation();
+									if ($st1 != "") {
+										echo "<span style='color: red;'>" . $st1 . "</span>" . '<br>';
+									}
+									?>
+
+								</label>
+								<input name="last_name"  type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Last name" value="<?php
+								if (isset($_POST['last_name'])) {
+									echo $_POST['last_name'];
+								}
+								?>">
 							</div>
 							
 							<!-- mobile number input -->
