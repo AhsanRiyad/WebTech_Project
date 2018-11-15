@@ -1,6 +1,6 @@
 <?php 
 if (session_status() == PHP_SESSION_NONE) {
-    session_start();
+	session_start();
 }
 else{
 	session_destroy();
@@ -90,6 +90,9 @@ function checkDB()
 				$_SESSION['UserInfo'] = $row;
 				//print_r($_SESSION);
 				return 'successful';
+			}
+			else{
+				return 'login failed';
 			}			
 		}else{
 			return 'failed';
@@ -111,7 +114,7 @@ function checkDB()
 			<div class="col-12 col-xl-6 ">
 				<div class="container">
 					<div class="row py-4">
-						<p class="text-dark h4">Welcome to Umart! Please login</p>
+						<p class="text-dark h4" id="login_id">Welcome to Umart! Please login</p>
 					</div>
 
 					<div class="row justify-content-xl-center bg-white py-5 mb-5">
@@ -195,14 +198,30 @@ function checkDB()
 if ($msg == 'successful') {
 
 
-?>
-<script type="text/javascript"> window.location.replace("admin_home.php");
+	?>
+	<script type="text/javascript"> window.location.replace("admin_home.php");
 </script>
-	
+
 <?php 
 
 }
- ?>	
+else if($msg == 'login failed')
+{
+	?>
+
+	<script type="text/javascript">
+		var i = document.getElementById('login_id');
+		i.innerHTML = 'Email/Password does not match';
+		i.classList.remove('text-dark');
+		i.classList.add('text-white' , 'bg-danger');
+
+	</script>
+
+
+	<?php 	
+}
+
+?>	
 
 
 <?php 

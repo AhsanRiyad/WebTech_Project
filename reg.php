@@ -1,6 +1,6 @@
 <?php 
 if (session_status() == PHP_SESSION_NONE) {
-    session_start();
+	session_start();
 }
 else{
 	session_destroy();
@@ -194,7 +194,7 @@ function phone_validation() {
 			$phone_array = str_split($_POST['phone'], 1);
 			foreach ($phone_array as $value) {
 				if ($value == '+' || $value == '0' || $value == '1' || $value == '2' || $value == '3' || $value == '4' || $value == '5' || $value == '6' || $value == '7' || $value == '8' || $value == '9') {
-					if (strlen($_POST['phone']) < 12) {
+					if (strlen($_POST['phone']) < 11) {
 						return 'too short';
 						echo '<br>';
 						break;
@@ -319,21 +319,33 @@ function checkDB(){
 			$gender = $_POST['gender'];
 			$type = 'User';
 			$mobile = $_POST['phone'];
-			$date = $_POST['year'].'-'.$month.'-'.$_POST['day'];
+			$date = $_POST['year'].'-'.$month.'-'.$_POST['day'];			
 
 			$sql = "INSERT INTO `user`(`firstName`, `lastName`, `email`, `mobile`, `dob`, `gender`, `password`, `type`) VALUES ('$firstName','$lastName','$email','$mobile','$date','$gender','$password', '$type')";
 
 
+			try{
 
-			if(mysqli_query($GLOBALS['conn'] , $sql))
+				if(!mysqli_query($GLOBALS['conn'] , $sql))
+				{
+					throw new Exception("Duplicate Email");					
+				}
+				return 'successful';				
+			}
+			catch(Exception $e)
 			{
+				return $e->getMessage();
+			}
+			
+			// if(mysqli_query($GLOBALS['conn'] , $sql))
+			// {
 
-				mysqli_close($GLOBALS['conn']);
-				return 'successful';
-			}
-			else{
-				return 'failed';
-			}
+			// 	mysqli_close($GLOBALS['conn']);
+			// 	return 'successful';
+			// }
+			// else{
+			// 	return 'failed';
+			// }
 
 
 		//echo $sql;
@@ -344,13 +356,9 @@ function checkDB(){
 
 		
 
-	} else {
-		
+
 
 	}
-	
-
-
 }
 
 
@@ -891,18 +899,37 @@ function checkDB(){
 	<?php 
 	if($msg == 'successful')
 	{
+
 		?>
 		<script type="text/javascript">
 			var i = document.getElementById('msg');
-			i.innerHTML = "Registration Successful";
+			i.innerHTML = 'Registraion successful';
 			i.classList.remove('text-dark');
 			i.classList.add('text-white' , 'bg-success');
 
 		</script>
 		<?php 
 	}
+	else if($msg == 'Duplicate Email')
+	{
 
+		?>
+		<script type="text/javascript">
+			var i = document.getElementById('msg');
+			i.innerHTML = 'Email already used';
+			i.classList.remove('text-dark');
+			i.classList.add('text-white' , 'bg-danger');
+
+		</script>
+
+
+		<?php 
+	}
 	?>
+	
+
+
+	
 	
 
 
@@ -911,7 +938,7 @@ function checkDB(){
 	
 	include 'linker_files/tail.php';
 
-	
+
 
 	?>
 
