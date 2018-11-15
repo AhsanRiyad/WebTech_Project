@@ -5,6 +5,7 @@
 
 }
 
+/*registration page msg show*/
 .new_class {
     color: white;
     background: green;
@@ -81,7 +82,7 @@ height: 100vh !important;
 }
 
 .box1{
-    height: 150px;
+    height: 75px;
     width: 100px;
 }
 

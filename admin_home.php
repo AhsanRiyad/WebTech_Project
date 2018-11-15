@@ -1,9 +1,5 @@
 <?php 
-session_start();
-if (!isset($_SESSION['UserInfo'])) {
-	header('Location: alert.php');
-}
-$sArray =  $_SESSION['UserInfo'];
+
 $link_status = "admin_home";
 
 ?>

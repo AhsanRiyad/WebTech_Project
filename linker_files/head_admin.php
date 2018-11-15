@@ -1,8 +1,11 @@
 <?php 
 session_start();
+if (!isset($_SESSION['UserInfo'])) {
+  header('Location: alert.php');
+}
 $sArray =  $_SESSION['UserInfo'];
 
- ?>
+?>
 
 <!doctype html>
 <html>

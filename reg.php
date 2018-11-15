@@ -26,7 +26,7 @@ $countPass = 0;
 $countGender = 0;
 $countDob = 0;
 $countToc = 0;
-
+$msg = '';
 
 //    first name validation
 function first_name_validation() {
