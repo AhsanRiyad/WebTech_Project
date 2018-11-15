@@ -1,13 +1,14 @@
 <?php 
 include 'linker_files/head.php';
+include 'linker_files/db.php';
 ?>
 
 
 <?php
-$GLOBALS['gender'] = "";
-$GLOBALS['first_name'] = "";
-$GLOBALS['last_name'] = "";
-$GLOBALS['email'] = "";
+$gender = "";
+$first_name = "";
+$last_name = "";
+$email = "";
 $countFirstName = 0;
 $countLastName = 0;
 $countEmail = 0;
@@ -239,9 +240,101 @@ function toc_validation(){
 // check database function
 function checkDB(){
 	if ($GLOBALS['countFirstName']== 2 && $GLOBALS['countLastName'] == 2 && $GLOBALS['countMobile'] == 2 && $GLOBALS['countEmail'] == 2 && $GLOBALS['countDob'] == 2 && $GLOBALS['countGender'] == 2 && $GLOBALS['countToc'] == 2) {
+		$month = 0;
+		if(isset($_POST['submit']))
+		{
+			if($_POST['month']=='Jan')
+			{
+				$month = 1;
+
+			}
+			if($_POST['month']=='Feb')
+			{
+				$month = 2;
+
+			}
+			if($_POST['month']=='Mar')
+			{
+				$month = 3;
+
+			}
+			if($_POST['month']=='Apr')
+			{
+				$month = 4;
+
+			}
+			if($_POST['month']=='May')
+			{
+				$month = 5;
+
+			}
+			if($_POST['month']=='Jun')
+			{
+				$month = 6;
+
+			}
+			if($_POST['month']=='Jul')
+			{
+				$month = 7;
+
+			}
+			if($_POST['month']=='Aug')
+			{
+				$month = 8;
+
+			}
+			if($_POST['month']=='Sep')
+			{
+				$month = 9;
+
+			}
+			if($_POST['month']=='Oct')
+			{
+				$month = 10;
+
+			}
+			if($_POST['month']=='Nov')
+			{
+				$month = 11;
+
+			}
+			if($_POST['month']=='Dec')
+			{
+				$month = 12;
+
+			}
+
+
+			$firstName = $_POST['first_name'];
+			$lastName = $_POST['last_name'];
+			$email = $_POST['email'];
+			$password = $_POST['password'];
+			$gender = $_POST['gender'];
+			$type = 'User';
+			$mobile = $_POST['phone'];
+			$date = $_POST['year'].'-'.$month.'-'.$_POST['day'];
+
+			$sql = "INSERT INTO `user`(`firstName`, `lastName`, `email`, `mobile`, `dob`, `gender`, `password`, `type`) VALUES ('$firstName','$lastName','$email','$mobile','$date','$gender','$password', '$type')";
+
+
+
+			if(mysqli_query($GLOBALS['conn'] , $sql))
+			{
+				return 'successful';
+			}
+			else{
+				return 'failed';
+			}
+
+
+		//echo $sql;
+
+
+		}
+		
 
 		
-		
+
 	} else {
 		
 
@@ -264,7 +357,9 @@ function checkDB(){
 			<div class="col-12 col-xl-6 ">
 				<div class="container">
 					<div class="row pt-4 pb-1">
-						<p class="text-dark h4">Create Your Umart Account</p>
+						<p class="text-dark h4" id='msg'>
+							Create Your Umart Account
+						</p>
 						<span class="ml-auto mt-auto pt-3"><small >Alredy member? <a href="login.php">Login</a> here</small></span>
 					</div>
 
@@ -282,7 +377,7 @@ function checkDB(){
 									}
 									else{
 										$countEmail = 2 ;
-										checkDB();
+										$msg = checkDB();										
 									}
 									?>
 
@@ -306,7 +401,8 @@ function checkDB(){
 									}
 									else{
 										$countPass = 2 ;
-										checkDB();
+										$msg = checkDB();
+										
 									}
 									?>
 
@@ -314,10 +410,6 @@ function checkDB(){
 								<input name="password" type="password" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Password" value="<?php
 								if (isset($_POST['password'])) {
 									echo $_POST['password'];
-								}
-								else{
-									$countPass = 2;
-									checkDB();
 								}
 								?>">
 							</div>
@@ -346,7 +438,8 @@ function checkDB(){
 										else{
 											$countDob = 2;
 											echo "Birthday*";
-											checkDB();
+											$msg = checkDB();
+											
 										}
 										?>
 
@@ -599,7 +692,8 @@ function checkDB(){
 								else{
 									$countGender = 2 ;
 									echo 'Gender*';
-									checkDB();
+									$msg = checkDB();
+									
 								}
 								?></small>
 								
@@ -659,7 +753,8 @@ function checkDB(){
 								else{
 
 									$countFirstName = 2;
-									checkDB();
+									$msg = checkDB();
+									
 								}
 								?>
 								
@@ -705,7 +800,8 @@ function checkDB(){
 								}
 								else{
 									$countMobile = 2;
-									checkDB();
+									$msg = checkDB();
+
 								}
 								?>
 
@@ -730,7 +826,11 @@ function checkDB(){
 							}
 							else{
 								$countToc = 2 ;
-								checkDB();
+								$msg = checkDB();
+								if($msg == 'successful')
+								{
+
+								}
 							}
 
 							?>
@@ -777,14 +877,33 @@ function checkDB(){
 
 
 
-
-
-
-
-
 	<!-- body ends here -->
+
 	<?php 
+	if($msg == 'successful')
+	{
+	?>
+	<script type="text/javascript">
+		var i = document.getElementById('msg');
+		i.innerHTML = "Registration Successful";
+		i.classList.remove('text-dark');
+		i.classList.add('text-white' , 'bg-success');
+
+	</script>
+	<?php 
+	}
+
+	 ?>
+	
+
+
+
+	<?php 
+	
 	include 'linker_files/tail.php';
+
+
+
 	?>
 
 

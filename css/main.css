@@ -5,6 +5,11 @@
 
 }
 
+.new_class {
+    color: white;
+    background: green;
+}
+
 a:hover{
     text-decoration: none;
 }
