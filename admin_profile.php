@@ -1,7 +1,12 @@
 <?php 
+session_start();
+if (!isset($_SESSION['UserInfo'])) {
+	header('Location: alert.php');
+}
+$sArray =  $_SESSION['UserInfo'];
 $link_status = "admin_profile";
 
- ?>
+?>
 
 <?php 
 include 'linker_files/head_admin.php';
@@ -40,7 +45,13 @@ include 'linker_files/head_admin.php';
 
 					</div>
 					<div class="col-7 align-self-center ml-0">
-						<p class="h3 ">Riyad Ahsan</p>
+						<p class="h3 ">
+							<?php 
+							echo $sArray['firstName'].' '.$sArray['lastName'];
+							?>
+
+
+						</p>
 						<p class="h4 ">System Adminstrator at <span class="font-weight-bold">Umart</span></p>
 					</div>
 
@@ -55,29 +66,43 @@ include 'linker_files/head_admin.php';
 					</div>
 
 					<div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0"> 
-					<small>Email</small>
-					<p class="pb-1 pl-1 mb-0">riyad298@gmail.com</p>
+						<small>Email</small>
+						<p class="pb-1 pl-1 mb-0">
+							<?php 
+							echo $sArray['email'];
+							?>
+						</p>
 
 					</div>
 
 					<div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0"> 
-					<small>Mobile</small>
-					<p class="pb-1 pl-1 mb-0">01919448787</p>
+						<small>Mobile</small>
+						<p class="pb-1 pl-1 mb-0">
+							<?php 
+							echo $sArray['mobile'];
+							?>
+						</p>
 
 					</div>
 
 
 					<div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0 mb-3"> 
-					<small>Birthday</small>
-					<p class="pb-1 pl-1 mb-0">02/08/1866</p>
+						<small>Birthday</small>
+						<p class="pb-1 pl-1 mb-0">
+							
+							<?php 
+							echo $sArray['dob'];
+							?>
+
+						</p>
 
 					</div>
 
 
 					<div class="col-10 mx-0 px-0 ">
 						<a href="admin_profile_update.php"><button class="btn btn-danger btn-block mb-3 mx-0 rounded-0">
-								Update Info
-							</button></a>
+							Update Info
+						</button></a>
 					</div>
 
 

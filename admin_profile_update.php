@@ -1,4 +1,8 @@
 <?php 
+session_start();
+if (!isset($_SESSION['UserInfo'])) {
+	header('Location: alert.php');
+}
 $link_status = "admin_profile";
 
 ?>
@@ -48,7 +52,12 @@ include 'linker_files/head_admin.php';
 
 					</div>
 					<div class="col-7 align-self-center ml-0">
-						<p class="h3 ">Riyad Ahsan</p>
+						<p class="h3 ">
+							<?php 
+							echo $sArray['firstName'].' '.$sArray['lastName'];
+							?>
+
+						</p>
 						<p class="h4 ">System Adminstrator at <span class="font-weight-bold">Umart</span></p>
 					</div>
 
@@ -57,41 +66,47 @@ include 'linker_files/head_admin.php';
 
 				</div>
 
-			<!-- update top part ends-->
+				<!-- update top part ends-->
 
-			
-			<!-- update field part starts -->
+
+				<!-- update field part starts -->
 				<div class="row bg-white mt-4 justify-content-center mx-1">
 					<div class="w-100 bg-info">
 						<p class="h3 text-white pl-4 pt-2"> <i class="fas fa-info-circle mr-0"></i> About</p>
 					</div>
 
-					<div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0 pr-0"> 
-					<small class="text-danger ">Enter new Name or Keep it same <span onclick="removeDisabled(this)" id="changeNameSpan" class="small_button">Change</span></small>
+					<!-- <div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0 pr-0"> 
+						<small class="text-danger ">Enter new Name or Keep it same <span onclick="removeDisabled(this)" id="changeNameSpan" class="small_button">Change</span></small>
 
-					<input id="changeName" class="d-block border-0 w-100 pb-1 mr-0 pl-2" placeholder="Enter your name there" disabled="" type="text" value="Riyad Ahsan" >
+						<input id="changeName" class="d-block border-0 w-100 pb-1 mr-0 pl-2" placeholder="Enter your name there" disabled="" type="text" value="Riyad Ahsan" >
+
+					</div> -->
+
+					<div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0 pr-0"> 
+						<small  class="text-danger ">Enter new email or Keep it same <span onclick="removeDisabled(this)" id="changeEmailSpan" class="small_button">Change</span></small>
+
+						<input id="changeEmail" class="d-block border-0 w-100 pb-1 mr-0 pl-2" placeholder="Type Your Email Here" disabled="" type="text" value="<?php 
+							echo $sArray['email'];
+							?>" >
 
 					</div>
 
 					<div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0 pr-0"> 
-					<small  class="text-danger ">Enter new email or Keep it same <span onclick="removeDisabled(this)" id="changeEmailSpan" class="small_button">Change</span></small>
+						<small class="text-danger ppp">Enter new Number or Keep it same <span id="changeMobileSpan" class="small_button" onclick="removeDisabled(this);">Change</span></small>
 
-					<input id="changeEmail" class="d-block border-0 w-100 pb-1 mr-0 pl-2" placeholder="Type Your Email Here" disabled="" type="text" value="riyad298@gmail.com" >
-
-					</div>
-
-					<div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0 pr-0"> 
-					<small class="text-danger ppp">Enter new Number or Keep it same <span id="changeMobileSpan" class="small_button" onclick="removeDisabled(this);">Change</span></small>
-
-					<input id="changeMobile" class="d-block border-0 w-100 pb-1 mr-0 pl-2" placeholder="Type Your Email Here" disabled="true" type="text" value="01919448787" >
+						<input id="changeMobile" class="d-block border-0 w-100 pb-1 mr-0 pl-2" placeholder="Type Your Email Here" disabled="true" type="text" value="<?php 
+							echo $sArray['mobile'];
+							?>" >
 
 					</div>
 
 
 					<div class="col-10 mt-3 border border-right-0 border-top-0 border-left-0 pl-0 pr-0 mb-3"> 
-					<small class="text-danger ">Enter new DOB or Keep it same <span onclick="removeDisabled(this)" id="changeDOBSpan" class="small_button">Change</span></small>
+						<small class="text-danger ">Enter new DOB or Keep it same <span onclick="removeDisabled(this)" id="changeDOBSpan" class="small_button">Change</span></small>
 
-					<input id="changeDOB" class="d-block border-0 w-100 pb-1 pl-2 mr-0" placeholder="20-12-1996" disabled="" type="date" value="1996-12-20" >
+						<input id="changeDOB" class="d-block border-0 w-100 pb-1 pl-2 mr-0" placeholder="20-12-1996" disabled="" type="date" value="<?php 
+							echo $sArray['dob'];
+							?>" >
 
 					</div>
 

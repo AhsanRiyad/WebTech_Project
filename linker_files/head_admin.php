@@ -1,5 +1,6 @@
 <?php 
 session_start();
+$sArray =  $_SESSION['UserInfo'];
 
  ?>
 
@@ -37,7 +38,6 @@ session_start();
   <!-- fixed horizontal -->
   <div class="admin_navbar_horizontal bg-secondary justify-content-center d-flex align-items-center">
     <p class="text-white h3">Good Morning, <?php 
-     $sArray =  $_SESSION['UserInfo'];
      echo $sArray['lastName'];
       ?></p>
   </div>

@@ -1,9 +1,11 @@
 <?php 
-if (session_status() == PHP_SESSION_NONE) {
+if (session_start()) {
+	session_unset();
+	session_destroy();
 	session_start();
 }
 else{
-	session_destroy();
+	session_start();
 }
 
 include 'linker_files/head.php';
