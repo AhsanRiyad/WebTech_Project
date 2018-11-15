@@ -1,4 +1,5 @@
 <?php 
+session_start();
 $link_status = "admin_home";
 
 ?>

@@ -1,4 +1,11 @@
 <?php 
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+else{
+	session_destroy();
+}
+
 include 'linker_files/head.php';
 include 'linker_files/db.php';
 ?>
@@ -320,6 +327,8 @@ function checkDB(){
 
 			if(mysqli_query($GLOBALS['conn'] , $sql))
 			{
+
+				mysqli_close($GLOBALS['conn']);
 				return 'successful';
 			}
 			else{
@@ -882,18 +891,18 @@ function checkDB(){
 	<?php 
 	if($msg == 'successful')
 	{
-	?>
-	<script type="text/javascript">
-		var i = document.getElementById('msg');
-		i.innerHTML = "Registration Successful";
-		i.classList.remove('text-dark');
-		i.classList.add('text-white' , 'bg-success');
+		?>
+		<script type="text/javascript">
+			var i = document.getElementById('msg');
+			i.innerHTML = "Registration Successful";
+			i.classList.remove('text-dark');
+			i.classList.add('text-white' , 'bg-success');
 
-	</script>
-	<?php 
+		</script>
+		<?php 
 	}
 
-	 ?>
+	?>
 	
 
 
@@ -902,7 +911,7 @@ function checkDB(){
 	
 	include 'linker_files/tail.php';
 
-
+	
 
 	?>
 

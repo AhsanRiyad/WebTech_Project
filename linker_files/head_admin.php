@@ -1,3 +1,8 @@
+<?php 
+session_start();
+
+ ?>
+
 <!doctype html>
 <html>
 
@@ -31,7 +36,10 @@
   <!-- navigation bar and search bar starts -->
   <!-- fixed horizontal -->
   <div class="admin_navbar_horizontal bg-secondary justify-content-center d-flex align-items-center">
-    <p class="text-white h3">Good Morning, Riyad</p>
+    <p class="text-white h3">Good Morning, <?php 
+     $sArray =  $_SESSION['UserInfo'];
+     echo $sArray['lastName'];
+      ?></p>
   </div>
 
 

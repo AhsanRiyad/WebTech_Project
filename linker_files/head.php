@@ -29,7 +29,7 @@
 <body>
 
 
-<!-- navigation bar and search bar starts -->
+  <!-- navigation bar and search bar starts -->
 
   <div class="container-fluid bg-light">
     <div class="row">
@@ -75,7 +75,7 @@
       </div>
     </div>
   </div>
-<!-- navigation bar and search bar ends -->
+  <!-- navigation bar and search bar ends -->
 
 
   
