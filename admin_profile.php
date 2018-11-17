@@ -1,9 +1,9 @@
 <?php 
-$link_status = "admin_profile";
+include 'linker_files/head_admin.php';
 ?>
 
 <?php 
-include 'linker_files/head_admin.php';
+$link_status = "admin_profile";
 ?>
 <!-- body starts here -->
 

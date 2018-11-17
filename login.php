@@ -1,22 +1,16 @@
-<?php 
-if (session_start()) {
-	session_unset();
-	session_destroy();
-	session_start();
-}
-else{
-	session_start();
-}
-
+<?php
+$link_status = 'loginPage';
 
 include 'linker_files/head.php';
 include 'linker_files/db.php';
+
 ?>
 
 <?php 
 
 $countPass = 0;
 $countEmail = 0;
+$msg = '';
 
 //    email validation
 function email_validation() {

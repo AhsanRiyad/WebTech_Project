@@ -1,13 +1,4 @@
 <?php 
-if (session_start()) {
-	session_unset();
-	session_destroy();
-	session_start();
-}
-else{
-	session_start();
-}
-
 include 'linker_files/head.php';
 include 'linker_files/db.php';
 ?>

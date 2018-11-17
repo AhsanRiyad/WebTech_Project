@@ -1,9 +1,13 @@
 <?php 
 session_start();
-if (!isset($_SESSION['UserInfo'])) {
-  header('Location: alert.php');
+if(!isset($_SESSION['UserInfo']))
+{
+  header('location: alert.php');
 }
-$sArray =  $_SESSION['UserInfo'];
+else
+{
+  $sArray = $_SESSION['UserInfo'];
+}
 
 ?>
 

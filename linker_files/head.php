@@ -1,3 +1,20 @@
+<?php
+session_start();
+$loginStatus = false;
+
+if(isset($link_status)){
+  if($link_status == 'loginPage')
+  {
+    unset($_SESSION['UserInfo']);
+  }
+}
+if(isset($_SESSION['UserInfo']))
+{
+  $loginStatus = true;
+}
+
+
+?>
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -40,7 +57,7 @@
             </div>
 
             <div class="col-lg-6 col-12 align-self-lg-center">
-              
+
               <form action="search_result.php">
                 <div class="form-row align-items-center">
                   <div class="col-9">
@@ -58,24 +75,52 @@
                 </div>
               </form> 
             </div>
-            <div class="col-lg-1  col-3 offset-1 mt-3 mb-3 mb-lg-0 mt-lg-0 offset-lg-0 d-flex justify-content-center align-self-lg-center"><a href="login.php" class="btn btn-success"> Sign In</a></div>
-            
-            <div class=" col-lg-2 col-xl-1 col-3 mt-3 mb-3 mb-lg-0 mt-lg-0 d-flex justify-content-center align-self-lg-center"><a href="contact.php" class="btn btn-info">Need Help?</a></div>
-            
-            
-            <div class=" col-lg-1 col-3 mt-3 mb-3 mb-lg-0 mt-lg-0 d-flex justify-content-center align-self-lg-center">
-              <a href="cart.php" class="btn btn-danger">
-                Cart <span class="badge badge-light">4</span>
-              </a>
-            </div>
-            
-            
+            <div class="col-lg-1  col-3 offset-1 mt-3 mb-3 mb-lg-0 mt-lg-0 offset-lg-0 d-flex justify-content-center align-self-lg-center"><a href="<?php if($loginStatus == true){
+              echo 'admin_home.php';
+            }
+            else{
+              echo 'login.php';
+            } ?>" class="btn btn-success">
+            <?php 
+            if($loginStatus == true){
+              echo 'Account';
+            }
+            else{
+              echo 'Sign In';
+            }
+            ?>
+          </a></div>
+
+          <div class=" col-lg-2 col-xl-1 col-3 mt-3 mb-3 mb-lg-0 mt-lg-0 d-flex justify-content-center align-self-lg-center"><a href="contact.php" class="btn btn-info">Need Help?</a></div>
+
+
+          <div class=" col-lg-1 col-3 mt-3 mb-3 mb-lg-0 mt-lg-0 d-flex justify-content-center align-self-lg-center">
+            <a href="<?php if($loginStatus == true){
+              echo 'cart.php';
+            }
+            else{
+              unset($_SESSION['UserInfo']);
+              echo 'reg.php';
+
+            } ?>" class="btn btn-danger">
+              <?php 
+            if($loginStatus == true){
+              echo 'Cart'.'<span class="badge badge-light">4</span>';
+            }
+            else{
+              echo 'Register';
+            }
+            ?>
+             
+            </a>
           </div>
+
+
         </div>
       </div>
     </div>
   </div>
-  <!-- navigation bar and search bar ends -->
+</div>
+<!-- navigation bar and search bar ends -->
 
 
-  
