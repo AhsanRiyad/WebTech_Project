@@ -1,10 +1,13 @@
 <?php 
+$link_status = "admin_profile";
+?>
+
+
+<?php 
 include 'linker_files/head_admin.php';
 ?>
 
-<?php 
-$link_status = "admin_profile";
-?>
+
 <!-- body starts here -->
 
 <!-- admin breadcumb and title -->

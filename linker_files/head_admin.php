@@ -58,6 +58,9 @@ else
 
     </div>
 
+
+    
+
     <a class="text-white" href="admin_home.php">
       <div class=" 
         <?php 
@@ -119,14 +122,22 @@ else
 
             </div></a>
 
+          <a class="text-white" href="index.php">
+          <div class="  bg-success py-2 text-center my-4">
 
+            <i class="fas fa-shopping-cart"></i> Back to Shop Page
+
+          </div></a>
 
             <a class="text-white" href="login.php">
-              <div class="  bg-secondary py-2 text-center my-4">
+              <div class="  bg-danger py-2 text-center my-4">
 
                 <i class="fas fa-sign-out-alt"></i>Sign Out
 
               </div></a>
+
+              
+
 
 
 
