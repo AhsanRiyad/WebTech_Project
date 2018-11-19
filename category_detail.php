@@ -1,5 +1,22 @@
-<?php 
+<?php
+include 'linker_files/db.php'; 
 include 'linker_files/head.php';
+?>
+
+<?php 
+
+$sql = "SELECT `id`, `isbn`, `name`, `price`, `category`, `total`, `sold`, `description`, `image`, `date`, `rating` FROM `product` LIMIT 2";
+$result = mysqli_query($conn , $sql);
+$row = mysqli_fetch_assoc($result);
+//print_r($row);
+
+$name = $row['name'];
+$rating = $row['rating'];
+$price = $row['price'];
+$description = $row['description'];
+
+
+
 ?>
 <!-- body starts here -->
 
