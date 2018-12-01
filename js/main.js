@@ -9,7 +9,6 @@ function removeDisabled(obj){
 }
 
 
-	//i.addEventListener('click' , cha);
 
 
 
